@@ -1,0 +1,261 @@
+================================================================
+COMP4321 Phase 1 — JDBM Database Schema Design
+================================================================
+
+----------------------------------------------------------------
+OVERVIEW
+----------------------------------------------------------------
+All persistent data is stored in a single JDBM RecordManager
+file named "searchengine" (produces searchengine.db and
+searchengine.lg on disk).
+
+The RecordManager holds 11 named HTree hash tables. Each HTree
+is a persistent hashtable stored on disk and loaded by name at
+startup. All value objects must implement java.io.Serializable.
+
+The schema is designed around two core ID mappings:
+  URL  <-> pageID   (Integer, auto-incremented)
+  word <-> wordID   (Integer, auto-incremented)
+
+These IDs are used as keys throughout all other tables, keeping
+storage compact and lookups fast.
+
+----------------------------------------------------------------
+TABLE 1: url_to_pageID
+----------------------------------------------------------------
+Key:   String  — the full URL of a page
+Value: Integer — the internal page ID
+
+Purpose:
+  Forward mapping. Used by the spider to check if a URL has
+  been seen before and to retrieve its page ID.
+
+Example:
+  "https://www.cse.ust.hk/~kwtleung/COMP4321/testpage.htm" -> 0
+  "https://www.cse.ust.hk/~kwtleung/COMP4321/news.htm"     -> 1
+
+----------------------------------------------------------------
+TABLE 2: pageID_to_url
+----------------------------------------------------------------
+Key:   Integer — the internal page ID
+Value: String  — the full URL of the page
+
+Purpose:
+  Reverse mapping. Used by the test program and search engine
+  to resolve a page ID back to its URL for display.
+
+Example:
+  0 -> "https://www.cse.ust.hk/~kwtleung/COMP4321/testpage.htm"
+  1 -> "https://www.cse.ust.hk/~kwtleung/COMP4321/news.htm"
+
+----------------------------------------------------------------
+TABLE 3: pageMetadata
+----------------------------------------------------------------
+Key:   Integer      — page ID
+Value: PageMetadata — serializable object with fields:
+         String title        page title from <title> tag
+         String url          full URL
+         String lastModified from HTTP Last-Modified header
+                             (falls back to Date header)
+         int    size         Content-Length in bytes
+                             (falls back to character count)
+         int    maxTF        highest term frequency among all
+                             body stems on this page
+
+Purpose:
+  Stores all display information for a page. The maxTF field
+  is used in the Final phase for tf/max_tf normalization in
+  the vector space model scoring formula.
+
+Design note:
+  lastModified is stored as a formatted string
+  ("EEE, dd MMM yyyy HH:mm:ss z") so it can be compared
+  directly against HTTP response headers on re-crawl to
+  detect page modifications.
+
+----------------------------------------------------------------
+TABLE 4: childLinks
+----------------------------------------------------------------
+Key:   Integer         — parent page ID
+Value: Vector<Integer> — list of child page IDs
+
+Purpose:
+  Stores the outgoing link graph (parent -> children).
+  Used by the test program to display child links per page,
+  and by the Final phase for link-based ranking (e.g. PageRank).
+
+Example:
+  0 -> [1, 2, 3, 4]   (testpage links to news, books, etc.)
+
+----------------------------------------------------------------
+TABLE 5: parentLinks
+----------------------------------------------------------------
+Key:   Integer         — child page ID
+Value: Vector<Integer> — list of parent page IDs
+
+Purpose:
+  Stores the incoming link graph (child -> parents).
+  Required for displaying parent links in search results
+  in the Final phase.
+
+Example:
+  1 -> [0]   (news.htm is linked from testpage.htm)
+
+Design note:
+  Both childLinks and parentLinks are maintained simultaneously
+  during crawling so both directions can be queried in O(1).
+
+----------------------------------------------------------------
+TABLE 6: word_to_wordID
+----------------------------------------------------------------
+Key:   String  — stemmed word (output of Porter's algorithm)
+Value: Integer — the internal word ID
+
+Purpose:
+  Forward mapping for the vocabulary. Used during indexing to
+  convert a stem to its ID before writing to the inverted index.
+
+Example:
+  "comput"  -> 0
+  "scienc"  -> 1
+  "admis"   -> 2
+
+----------------------------------------------------------------
+TABLE 7: wordID_to_word
+----------------------------------------------------------------
+Key:   Integer — the internal word ID
+Value: String  — the stemmed word
+
+Purpose:
+  Reverse mapping. Used by the test program and search engine
+  to resolve a word ID back to its stem for display.
+
+Example:
+  0 -> "comput"
+  1 -> "scienc"
+
+----------------------------------------------------------------
+TABLE 8: bodyIndex  [body inverted index]
+----------------------------------------------------------------
+Key:   Integer        — word ID
+Value: Vector<Posting> — list of postings, one per document
+                         containing this word in its body.
+
+Each Posting object (serializable) holds:
+  int          pageID    — which document contains this word
+  int          tf        — term frequency (count) in that doc
+  List<Integer> positions — list of 0-based word positions
+                            within the document body
+
+Purpose:
+  Core inverted index for body text. Supports:
+  - Ranked retrieval: tf and posting list size (df) are used
+    in tf*idf/max_tf scoring in the Final phase
+  - Phrase search: consecutive positions indicate adjacent words,
+    e.g. positions [4,5] for "hong kong" means they appear
+    next to each other
+
+Example entry:
+  wordID 0 ("comput") ->
+    [ Posting{pageID=5, tf=13, positions=[2,8,15,21,...]},
+      Posting{pageID=6, tf=8,  positions=[1,5,12,...]},
+      ... ]
+
+----------------------------------------------------------------
+TABLE 9: titleIndex  [title inverted index]
+----------------------------------------------------------------
+Key:   Integer         — word ID
+Value: Vector<Posting> — same structure as bodyIndex
+
+Purpose:
+  Separate inverted index for title words only.
+  Kept separate from bodyIndex to allow the Final phase search
+  engine to significantly boost scores for title matches
+  (a match in the title is worth more than a body match).
+  Also supports phrase search within page titles.
+
+Design note:
+  Separating body and title indexes allows independent tuning
+  of title boost weights without restructuring the body index.
+
+----------------------------------------------------------------
+TABLE 10: forwardIndex
+----------------------------------------------------------------
+Key:   Integer                     — page ID
+Value: HashMap<Integer, Integer>   — maps wordID to tf
+                                     for all body words on page
+
+Purpose:
+  Forward index for efficient per-page keyword retrieval.
+  Used by the test program to find the top-N most frequent
+  keywords for each page without scanning the entire bodyIndex.
+  Also used in the Final phase to display top keywords in
+  search results.
+
+Example entry:
+  pageID 5 -> { 0: 13, 1: 7, 2: 4, ... }
+  (word 0 appears 13 times, word 1 appears 7 times, etc.)
+
+Design note:
+  Without this table, finding top keywords would require
+  scanning all posting lists in bodyIndex — O(vocabulary size).
+  With forwardIndex, it is O(unique words on page).
+
+----------------------------------------------------------------
+TABLE 11: counters
+----------------------------------------------------------------
+Key:   String  — counter name ("pageCounter" or "wordCounter")
+Value: Integer — current counter value (next ID to assign)
+
+Purpose:
+  Provides auto-incrementing integer IDs for pages and words.
+  Each new URL gets the next pageCounter value.
+  Each new stem gets the next wordCounter value.
+
+Example:
+  "pageCounter" -> 30   (30 pages indexed)
+  "wordCounter" -> 847  (847 unique stems in vocabulary)
+
+----------------------------------------------------------------
+DESIGN DECISIONS & RATIONALE
+----------------------------------------------------------------
+
+1. Single RecordManager file
+   All 11 tables share one RecordManager ("searchengine").
+   This simplifies opening/closing the database and ensures
+   all writes are committed atomically.
+
+2. Integer IDs for everything
+   URLs and words are mapped to compact integer IDs used as
+   keys throughout. This reduces storage vs. using full strings
+   as keys in the inverted index, and makes comparisons faster.
+
+3. Positions stored in every Posting
+   Word positions are stored even in Phase 1 (not strictly
+   required until phrase search). This avoids re-crawling
+   all pages when phrase search is added in the Final phase.
+
+4. Separate body and title inverted indexes
+   Allows the search engine to apply different weights to
+   title vs. body matches cleanly, without needing a
+   per-posting "field" flag or union queries.
+
+5. maxTF stored in PageMetadata
+   The maximum term frequency per page is computed and stored
+   at index time. This avoids recomputing it at query time
+   for every document in the result set.
+
+6. forwardIndex alongside inverted indexes
+   Both directions (word->pages and page->words) are stored.
+   This makes top-keyword retrieval O(page size) instead of
+   O(total postings), which is critical for the test program
+   and search result display.
+
+7. isIndexed() checks for metadata, not just pageID
+   When a page is discovered as a link, its URL is registered
+   in url_to_pageID immediately (to build the link graph).
+   isIndexed() checks for the presence of PageMetadata, not
+   just a page ID, so that discovered-but-not-yet-crawled
+   pages are not incorrectly skipped.
+
+================================================================
