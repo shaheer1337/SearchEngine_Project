@@ -34,6 +34,13 @@ DEVLOG.md
 
 # PDF
 Project Description_26S-1.pdf
+final_report.aux
+final_report.log
+final_report.out
+final_report.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
 
 # OS files
 .DS_Store

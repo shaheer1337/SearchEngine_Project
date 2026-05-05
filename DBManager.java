@@ -140,6 +140,29 @@ public class DBManager
         return ids;
     }
 
+    /**
+     * Returns only pageIDs that are fully indexed (i.e., have metadata).
+     * This is the authoritative document set for retrieval/output.
+     */
+    public List<Integer> getAllIndexedPageIDs() throws IOException
+    {
+        List<Integer> indexed = new ArrayList<>();
+        for (Integer pageID : getAllPageIDs())
+        {
+            if (pageMetadata.get(pageID) != null)
+                indexed.add(pageID);
+        }
+        return indexed;
+    }
+
+    /**
+     * Number of fully indexed pages (pages with metadata).
+     */
+    public int getIndexedPageCount() throws IOException
+    {
+        return getAllIndexedPageIDs().size();
+    }
+
     // ─── Link graph ───────────────────────────────────────────────────────────
 
     public void addChildLink(int parentID, int childID) throws IOException

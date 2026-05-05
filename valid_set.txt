@@ -1,0 +1,139 @@
+COMP4321 Final Demo Valid Set (TA3)
+===================================
+
+Note:
+- This valid set is based on the current indexed DB snapshot.
+- Expected results are the top ranked outputs shown by SearchMain.
+- Query types satisfy TA requirements: single, multi, phrase, zero-result, title-boost.
+
+------------------------------------------------------------
+Query 1 (Single keyword)
+------------------------------------------------------------
+Query:
+computer
+
+Expected Top-5:
+1) UG
+   https://hitcslj.github.io/TestPages/ust_cse/UG.htm
+2) PG
+   https://hitcslj.github.io/TestPages/ust_cse/PG.htm
+3) Firetrap (2001)
+   https://hitcslj.github.io/TestPages/Movie/150.html
+4) Blue Seed: Beyond (2003)
+   https://hitcslj.github.io/TestPages/Movie/282.html
+5) Ken Burns' America: Empire of the Air (1991)
+   https://hitcslj.github.io/TestPages/Movie/62.html
+
+------------------------------------------------------------
+Query 2 (Multi-keyword)
+------------------------------------------------------------
+Query:
+computer science
+
+Expected Top-5:
+1) UG
+   https://hitcslj.github.io/TestPages/ust_cse/UG.htm
+2) PG
+   https://hitcslj.github.io/TestPages/ust_cse/PG.htm
+3) Silkwood (1983)
+   https://hitcslj.github.io/TestPages/Movie/83.html
+4) That '70s Show: Season 1 (1998)
+   https://hitcslj.github.io/TestPages/Movie/215.html
+5) Airplane II: The Sequel (1982)
+   https://hitcslj.github.io/TestPages/Movie/189.html
+
+------------------------------------------------------------
+Query 3 (Phrase query)
+------------------------------------------------------------
+Query:
+"hong kong"
+
+Expected Top-5:
+1) UG
+   https://hitcslj.github.io/TestPages/ust_cse/UG.htm
+2) Fighter (2001)
+   https://hitcslj.github.io/TestPages/Movie/10.html
+3) Something's Gotta Give (2003)
+   https://hitcslj.github.io/TestPages/Movie/30.html
+4) Spitfire Grill (1996)
+   https://hitcslj.github.io/TestPages/Movie/44.html
+5) The Love Letter (1999)
+   https://hitcslj.github.io/TestPages/Movie/45.html
+
+------------------------------------------------------------
+Query 4 (Zero-result query)
+------------------------------------------------------------
+Query:
+qwertyzzznomatch
+
+Expected:
+No results.
+
+------------------------------------------------------------
+Query 5 (Title-boost demonstration)
+------------------------------------------------------------
+Query:
+cse department
+
+Expected Top-5:
+1) CSE department of HKUST
+   https://hitcslj.github.io/TestPages/ust_cse.htm
+2) Test page
+   https://hitcslj.github.io/TestPages/testpage.htm
+3) UG
+   https://hitcslj.github.io/TestPages/ust_cse/UG.htm
+4) PG
+   https://hitcslj.github.io/TestPages/ust_cse/PG.htm
+5) The Big Clock (1948)
+   https://hitcslj.github.io/TestPages/Movie/261.html
+
+Why this demonstrates title boost:
+- The query terms "cse" and "department" appear directly in the page title
+  "CSE department of HKUST", so that page receives additional title-match score.
+- In this system, final score combines:
+  (1) cosine similarity from body terms with tf*idf/max_tf, plus
+  (2) extra title-match bonuses for term/phrase matches in the title.
+- This causes the exact title-relevant page to rank clearly above others.
+
+Live demo commands (with and without title boost):
+  java -cp .:htmlparser.jar:lib/jdbm-1.0.jar SearchMain "cse department"
+  java -cp .:htmlparser.jar:lib/jdbm-1.0.jar SearchMain --no-title-boost "cse department"
+
+------------------------------------------------------------
+Bonus demo queries (extra)
+------------------------------------------------------------
+1) university -science
+2) "hong kong" -"science park"
+
+Expected output for bonus query 1:
+Query:
+university -science
+
+Expected Top-5:
+1) Cannibal Women in the Avocado Jungle of Death (1988)
+   https://hitcslj.github.io/TestPages/Movie/146.html
+2) Pitcher and the Pin-Up (2004)
+   https://hitcslj.github.io/TestPages/Movie/40.html
+3) Venus Boyz (2002)
+   https://hitcslj.github.io/TestPages/Movie/204.html
+4) Stellvia (2004)
+   https://hitcslj.github.io/TestPages/Movie/244.html
+5) Gross Anatomy (1989)
+   https://hitcslj.github.io/TestPages/Movie/232.html
+
+Expected output for bonus query 2:
+Query:
+"hong kong" -"science park"
+
+Expected Top-5:
+1) UG
+   https://hitcslj.github.io/TestPages/ust_cse/UG.htm
+2) Fighter (2001)
+   https://hitcslj.github.io/TestPages/Movie/10.html
+3) Something's Gotta Give (2003)
+   https://hitcslj.github.io/TestPages/Movie/30.html
+4) Spitfire Grill (1996)
+   https://hitcslj.github.io/TestPages/Movie/44.html
+5) The Love Letter (1999)
+   https://hitcslj.github.io/TestPages/Movie/45.html
+

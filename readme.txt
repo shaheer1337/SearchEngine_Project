@@ -1,166 +1,144 @@
 ================================================================
-COMP4321 Phase 1 — Spider & Test Program
+COMP4321 Project — Final Submission Readme
 ================================================================
 
 ----------------------------------------------------------------
-REQUIREMENTS
+1) REQUIREMENTS
 ----------------------------------------------------------------
-- Java JDK 8 or above
-- htmlparser.jar       (included in project root)
-- jdbm-1.0.jar         (place in lib/ folder inside project root)
+- Java JDK 8+
+- Apache Tomcat 9+ (for JSP UI)
+- htmlparser.jar (project root)
+- lib/jdbm-1.0.jar
 
 ----------------------------------------------------------------
-FILE STRUCTURE
+2) SOURCE FILES (FINAL)
 ----------------------------------------------------------------
-COMP4321 Project/
-├── IRUtilities/
-│   └── Porter.java          Porter stemmer (provided)
-├── lib/
-│   └── jdbm-1.0.jar         JDBM 1.0 library
-├── htmlparser.jar            HTML parser library
-├── stopwords.txt             English stop words list
-├── Crawler.java              HTML word/link extractor
-├── StopStem.java             Stop word filter + Porter stemmer wrapper
-├── Posting.java              Serializable posting (pageID, tf, positions)
-├── PageMetadata.java         Serializable page metadata
-├── DBManager.java            JDBM database layer (all HTrees + API)
-├── Spider.java               BFS spider integrated with indexer
-└── TestProgram.java          Reads DB and writes spider_result.txt
+Core crawling/indexing:
+- Spider.java
+- Crawler.java
+- StopStem.java
+- IRUtilities/Porter.java
+
+Database:
+- DBManager.java
+- Posting.java
+- PageMetadata.java
+
+Retrieval/ranking:
+- QueryParser.java
+- SearchEngine.java
+- SearchMain.java
+
+Output:
+- TestProgram.java
+
+Web UI:
+- web/search.jsp
+- web/results.jsp
+- web/WEB-INF/web.xml
 
 ----------------------------------------------------------------
-BUILD INSTRUCTIONS
+3) BUILD
 ----------------------------------------------------------------
-From the project root directory, run:
+From project root:
 
   javac -cp .:htmlparser.jar:lib/jdbm-1.0.jar \
-      IRUtilities/Porter.java \
-      StopStem.java \
-      Posting.java \
-      PageMetadata.java \
-      DBManager.java \
-      Crawler.java \
-      Spider.java \
-      TestProgram.java
+    IRUtilities/Porter.java \
+    StopStem.java \
+    Posting.java \
+    PageMetadata.java \
+    DBManager.java \
+    Crawler.java \
+    Spider.java \
+    QueryParser.java \
+    SearchEngine.java \
+    SearchMain.java \
+    TestProgram.java
 
-On Windows, replace ':' with ';' in the classpath:
-
-  javac -cp .;htmlparser.jar;lib/jdbm-1.0.jar ...
+Windows: replace ':' with ';' in classpath.
 
 ----------------------------------------------------------------
-EXECUTION
+4) INDEXING (FINAL: 300 PAGES)
 ----------------------------------------------------------------
-Step 1 — Run the Spider (crawls and indexes 30 pages):
+Clear old DB:
+  rm -f searchengine.db searchengine.lg
 
-  java -cp .:htmlparser.jar:lib/jdbm-1.0.jar Spider
+Run crawler (2026 seed URL):
+  java -cp .:htmlparser.jar:lib/jdbm-1.0.jar Spider \
+    "https://hitcslj.github.io/TestPages/testpage.htm" 300
 
-  Output: prints crawling progress to console.
-  Creates: searchengine.db and searchengine.lg (the JDBM database files).
+Output files:
+- searchengine.db
+- searchengine.lg
 
-Step 2 — Run the Test Program (generates spider_result.txt):
+----------------------------------------------------------------
+5) RETRIEVAL (CLI)
+----------------------------------------------------------------
+Normal query:
+  java -cp .:htmlparser.jar:lib/jdbm-1.0.jar SearchMain "computer science"
 
+Phrase query:
+  java -cp .:htmlparser.jar:lib/jdbm-1.0.jar SearchMain "\"hong kong\""
+
+Bonus excluded-term query:
+  java -cp .:htmlparser.jar:lib/jdbm-1.0.jar SearchMain "university -science"
+
+Bonus excluded-phrase query:
+  java -cp .:htmlparser.jar:lib/jdbm-1.0.jar SearchMain "\"hong kong\" -\"science park\""
+
+Title-boost comparison:
+  java -cp .:htmlparser.jar:lib/jdbm-1.0.jar SearchMain "cse department"
+  java -cp .:htmlparser.jar:lib/jdbm-1.0.jar SearchMain --no-title-boost "cse department"
+
+----------------------------------------------------------------
+6) SPIDER RESULT OUTPUT
+----------------------------------------------------------------
+Generate spider output:
   java -cp .:htmlparser.jar:lib/jdbm-1.0.jar TestProgram
 
-  Output: spider_result.txt in the project root.
-
-NOTE: To re-crawl from scratch, delete the database files first:
-  rm -f searchengine.db searchengine.lg   (Linux/Mac)
-  del searchengine.db searchengine.lg     (Windows)
+Output file:
+- spider_result.txt
 
 ----------------------------------------------------------------
-JDBM DATABASE SCHEMA DESIGN
+7) TOMCAT JSP WEB INTERFACE
 ----------------------------------------------------------------
-All data is stored in a single JDBM RecordManager file named
-"searchengine" (files: searchengine.db, searchengine.lg).
+App URL after deployment:
+  http://localhost:8080/comp4321search/search.jsp
 
-The RecordManager contains 11 named HTree hash tables:
+If CATALINA_BASE is available, deploy under:
+  $CATALINA_BASE/webapps/comp4321search/
 
-1. url_to_pageID
-   Key:   String (URL)
-   Value: Integer (pageID)
-   Purpose: Converts a URL to its internal integer page ID.
+Fedora service-path example:
+  /var/lib/tomcat/webapps/comp4321search/
 
-2. pageID_to_url
-   Key:   Integer (pageID)
-   Value: String (URL)
-   Purpose: Reverse lookup — converts a page ID back to its URL.
-
-3. pageMetadata
-   Key:   Integer (pageID)
-   Value: PageMetadata object (title, url, lastModified, size, maxTF)
-   Purpose: Stores all metadata for a crawled page.
-            maxTF (max term frequency) is stored for tf/max_tf
-            normalization in the vector space model (Final phase).
-
-4. childLinks
-   Key:   Integer (pageID)
-   Value: Vector<Integer> (list of child page IDs)
-   Purpose: Stores outgoing links from each page (parent→child graph).
-
-5. parentLinks
-   Key:   Integer (pageID)
-   Value: Vector<Integer> (list of parent page IDs)
-   Purpose: Stores incoming links to each page (child→parent graph).
-
-6. word_to_wordID
-   Key:   String (stemmed word)
-   Value: Integer (wordID)
-   Purpose: Converts a stemmed word to its internal integer word ID.
-
-7. wordID_to_word
-   Key:   Integer (wordID)
-   Value: String (stemmed word)
-   Purpose: Reverse lookup — converts a word ID back to its stem.
-
-8. bodyIndex  [inverted index]
-   Key:   Integer (wordID)
-   Value: Vector<Posting> where each Posting holds:
-            - pageID    (which document)
-            - tf        (term frequency in that document)
-            - positions (list of word positions for phrase search)
-   Purpose: Body inverted index. Supports ranked retrieval and
-            phrase search in page bodies.
-
-9. titleIndex  [inverted index]
-   Key:   Integer (wordID)
-   Value: Vector<Posting> (same structure as bodyIndex)
-   Purpose: Title inverted index. Kept separate to allow title
-            boosting in scoring (Final phase).
-
-10. forwardIndex
-    Key:   Integer (pageID)
-    Value: HashMap<Integer, Integer> (wordID → term frequency)
-    Purpose: Forward index used to efficiently retrieve the top-N
-             most frequent keywords per page for output display.
-
-11. counters
-    Key:   String ("pageCounter" or "wordCounter")
-    Value: Integer
-    Purpose: Auto-incrementing ID counters for page IDs and word IDs.
+Deploy commands (Fedora):
+  sudo mkdir -p /var/lib/tomcat/webapps/comp4321search/WEB-INF/classes/IRUtilities
+  sudo mkdir -p /var/lib/tomcat/webapps/comp4321search/WEB-INF/lib
+  sudo cp web/search.jsp /var/lib/tomcat/webapps/comp4321search/
+  sudo cp web/results.jsp /var/lib/tomcat/webapps/comp4321search/
+  sudo cp web/WEB-INF/web.xml /var/lib/tomcat/webapps/comp4321search/WEB-INF/
+  sudo cp *.class /var/lib/tomcat/webapps/comp4321search/WEB-INF/classes/
+  sudo cp IRUtilities/*.class /var/lib/tomcat/webapps/comp4321search/WEB-INF/classes/IRUtilities/
+  sudo cp htmlparser.jar /var/lib/tomcat/webapps/comp4321search/WEB-INF/lib/
+  sudo cp lib/jdbm-1.0.jar /var/lib/tomcat/webapps/comp4321search/WEB-INF/lib/
 
 ----------------------------------------------------------------
-INDEXING PIPELINE
+8) IMPLEMENTED FINAL FEATURES
 ----------------------------------------------------------------
-For each crawled page, the following steps are applied:
-
-1. Extract visible text from page body using HTMLParser StringBean
-2. Extract title using HTMLParser TitleTag filter
-3. Tokenize: split on whitespace, lowercase, strip non-alpha chars
-4. Filter stop words using stopwords.txt via StopStem
-5. Apply Porter stemming via StopStem
-6. Track word positions (0-based index in token stream)
-7. Write postings to bodyIndex or titleIndex in DBManager
-8. Write wordID→tf map to forwardIndex for top-keyword display
-9. Compute maxTF (highest term frequency) and store in PageMetadata
+- Vector-space retrieval with cosine similarity.
+- Weighting uses (tf/max_tf) * idf.
+- Phrase search with positional postings (body and title).
+- Title boosting in ranking.
+- Top 50 result cap.
+- Required UI fields: score, title, URL, last-modified, size, top keywords,
+  parent links, child links.
+- Bonus: excluded terms/phrases (-term, -"phrase").
+- Extra demo feature: title-boost ON/OFF toggle (CLI + JSP checkbox).
 
 ----------------------------------------------------------------
-CRAWLING STRATEGY
+9) DATABASE DESIGN DOCUMENT
 ----------------------------------------------------------------
-- Breadth-first search (BFS) using a Queue
-- Cycle detection via a visited HashSet
-- Before fetching, checks:
-    (a) URL not yet indexed (no metadata stored) → fetch
-    (b) URL indexed but server Last-Modified is newer → re-fetch
-    (c) Otherwise → skip
-- On fetch failure (timeout, parse error), the page is skipped
-  and crawling continues with the next URL in the queue
+See:
+- database_design.txt
+
 ================================================================

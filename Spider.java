@@ -290,10 +290,18 @@ public class Spider
 
     public static void main(String[] args) throws Exception
     {
+        String seedUrl = "https://www.cse.ust.hk/~kwtleung/COMP4321/testpage.htm";
+        int maxPages = 300;
+
+        if (args.length >= 1 && !args[0].trim().isEmpty())
+            seedUrl = args[0].trim();
+        if (args.length >= 2)
+            maxPages = Integer.parseInt(args[1]);
+
         DBManager dbm = new DBManager();
         Spider spider = new Spider(
-            "https://www.cse.ust.hk/~kwtleung/COMP4321/testpage.htm",
-            30,
+            seedUrl,
+            maxPages,
             dbm
         );
         spider.crawl();

@@ -28,7 +28,7 @@ public class TestProgram
     {
         DBManager dbm = new DBManager();
 
-        List<Integer> pageIDs = dbm.getAllPageIDs();
+        List<Integer> pageIDs = dbm.getAllIndexedPageIDs();
 
         if (pageIDs.isEmpty())
         {
@@ -81,7 +81,7 @@ public class TestProgram
         }
 
         dbm.close();
-        System.out.println("spider_result.txt written with " + pageIDs.size() + " pages.");
+        System.out.println("spider_result.txt written with " + pageIDs.size() + " indexed pages.");
     }
 
     /**
