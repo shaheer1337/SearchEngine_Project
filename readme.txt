@@ -53,6 +53,8 @@ From project root:
     QueryParser.java \
     SearchEngine.java \
     SearchMain.java \
+    PostingInspector.java \
+    DBViewer.java \
     TestProgram.java
 
 Windows: replace ':' with ';' in classpath.
@@ -70,6 +72,15 @@ Run crawler (2026 seed URL):
 Output files:
 - searchengine.db
 - searchengine.lg
+
+Hidden-seed demo without losing 300-page DB:
+  cp searchengine.db searchengine_300.db
+  cp searchengine.lg searchengine_300.lg
+  rm -f searchengine.db searchengine.lg
+  java -cp .:htmlparser.jar:lib/jdbm-1.0.jar Spider "<TA_HIDDEN_SEED>" 30
+  java -cp .:htmlparser.jar:lib/jdbm-1.0.jar Spider "<TA_HIDDEN_SEED>" 30
+  mv -f searchengine_300.db searchengine.db
+  mv -f searchengine_300.lg searchengine.lg
 
 ----------------------------------------------------------------
 5) RETRIEVAL (CLI)
@@ -89,6 +100,22 @@ Bonus excluded-phrase query:
 Title-boost comparison:
   java -cp .:htmlparser.jar:lib/jdbm-1.0.jar SearchMain "cse department"
   java -cp .:htmlparser.jar:lib/jdbm-1.0.jar SearchMain --no-title-boost "cse department"
+
+----------------------------------------------------------------
+5.1) POSTING INSPECTOR (TA2)
+----------------------------------------------------------------
+Stem -> posting list inspection (docs + tf):
+  java -cp .:htmlparser.jar:lib/jdbm-1.0.jar PostingInspector run
+
+Stopword removed example:
+  java -cp .:htmlparser.jar:lib/jdbm-1.0.jar PostingInspector the
+
+Stemming parity example:
+  java -cp .:htmlparser.jar:lib/jdbm-1.0.jar PostingInspector running
+  java -cp .:htmlparser.jar:lib/jdbm-1.0.jar PostingInspector run
+
+DB schema quick tour:
+  java -cp .:htmlparser.jar:lib/jdbm-1.0.jar DBViewer 0 2
 
 ----------------------------------------------------------------
 6) SPIDER RESULT OUTPUT

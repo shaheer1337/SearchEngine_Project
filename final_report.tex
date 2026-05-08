@@ -12,6 +12,8 @@
 \usepackage{fancyhdr}
 \usepackage{amsmath}
 \usepackage{graphicx}
+\usepackage{float}
+\usepackage{placeins}
 
 \hypersetup{
   colorlinks=true,
@@ -51,19 +53,19 @@
     Semester & 2026 Spring \\
     Seed URL & \url{https://hitcslj.github.io/TestPages/testpage.htm} \\
     Indexed Pages & 300 \\
-    Team Name & [Fill Team Name] \\
+    Group No. & 25 \\
   \end{tabular}
 
   \vfill
 
   \begin{tabular}{>{\raggedright\arraybackslash}p{0.32\linewidth}p{0.62\linewidth}}
-    Member 1 & [Name, Student ID] \\
-    Member 2 & [Name, Student ID] \\
-    Member 3 & [Name, Student ID] \\
+    Member 1 & SHAHEER, Muhammad (21026904) \\
+    Member 2 & SAMI, Sufyan (20901389) \\
+    Member 3 & PERYSHKO, Mira Eleanora (21333577) \\
   \end{tabular}
 
   \vfill
-  {\large Submission Date: [Fill Date]\par}
+  {\large Submission Date: May 7, 2026\par}
 \end{titlepage}
 
 \section{Overall Design of the System}
@@ -224,55 +226,54 @@ http://localhost:8080/comp4321search/search.jsp
 Observed behavior during test runs confirms that hidden-seed N=30 crawling completes in
 demo-friendly time and immediate reruns index 0 additional pages when content is unchanged.
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
   \centering
-  \fbox{\parbox[c][2.0in][c]{0.92\linewidth}{\centering
-  Insert terminal screenshot showing N=300 indexing completion and runtime.}}
+  \includegraphics[width=0.96\linewidth]{screenshots/crawleroutput.png}
   \caption{Crawler output screenshot (N=300 indexing completion and runtime).}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
   \centering
-  \fbox{\parbox[c][2.0in][c]{0.92\linewidth}{\centering
-  Insert terminal screenshot showing hidden-seed N=30 run and skip-on-rerun behavior.}}
+  \includegraphics[width=0.96\linewidth]{screenshots/hiddenseedtest.png}
   \caption{Hidden-seed test screenshot (N=30 and rerun skip behavior).}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
   \centering
   \includegraphics[width=0.94\linewidth]{screenshots/dbviewer.png}
   \caption{DB inspector output showing postings, term frequency, and positional data.}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
   \centering
   \includegraphics[width=0.96\linewidth]{screenshots/webUIoutput.png}
   \caption{Web UI result page showing score, title/URL hyperlinks, metadata, keywords, and parent/child links.}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
   \centering
   \includegraphics[width=0.92\linewidth]{screenshots/titlebooston.png}
   \caption{Title boost enabled.}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
   \centering
   \includegraphics[width=0.92\linewidth]{screenshots/titleboostoff.png}
   \caption{Title boost disabled for the same query; score gap changes.}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
   \centering
   \includegraphics[width=0.92\linewidth]{screenshots/bonusfeature1.png}
   \caption{Bonus query example 1: excluded term filtering.}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
   \centering
   \includegraphics[width=0.92\linewidth]{screenshots/bonusfeature2.png}
   \caption{Bonus query example 2: excluded phrase filtering.}
 \end{figure}
+\FloatBarrier
 
 \section{Conclusion}
 \subsection{Strengths}
@@ -305,11 +306,11 @@ can share the same index location without manual file copying.
 \hline
 \textbf{Member} & \textbf{Contribution} & \textbf{Main Responsibilities} \\
 \hline
-[Member A] & [\%] & Spider/crawling and link graph logic \\
+[SHAHEER, Muhammad (21026904)] & 33.3\% & Spider/crawling and link graph logic \\
 \hline
-[Member B] & [\%] & Indexing/database schema and retrieval implementation \\
+[SAMI, Sufyan (20901389)] & 33.3\% & Indexing/database schema and retrieval implementation \\
 \hline
-[Member C] & [\%] & Web interface, testing, documentation, and demo prep \\
+[PERYSHKO, Mira Eleanora (21333577)] & 33.3\% & Web interface, testing, documentation, and demo prep \\
 \hline
 \end{longtable}
 

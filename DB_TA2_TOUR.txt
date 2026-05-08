@@ -1,0 +1,136 @@
+COMP4321 TA2 DB Tour Script (2-3 minutes)
+=========================================
+
+Purpose:
+- Quick spoken script + commands for TA2 (Indexing & DB station).
+
+0) One-time compile (if needed)
+--------------------------------
+javac -cp .:htmlparser.jar:lib/jdbm-1.0.jar \
+  IRUtilities/Porter.java StopStem.java Posting.java PageMetadata.java \
+  DBManager.java Crawler.java Spider.java QueryParser.java SearchEngine.java \
+  SearchMain.java PostingInspector.java DBViewer.java TestProgram.java
+
+1) Posting-list inspector demo
+------------------------------
+Command:
+  java -cp .:htmlparser.jar:lib/jdbm-1.0.jar PostingInspector run
+
+Say:
+- "This utility normalizes + stems the input term and prints posting lists."
+- "For each matched document, it shows pageID, tf, and URL."
+- "It prints body and title postings separately."
+
+2) Stopword removal proof
+-------------------------
+Commands:
+  java -cp .:htmlparser.jar:lib/jdbm-1.0.jar PostingInspector the
+  java -cp .:htmlparser.jar:lib/jdbm-1.0.jar PostingInspector of
+  java -cp .:htmlparser.jar:lib/jdbm-1.0.jar PostingInspector a
+
+Expected:
+- Removed by stop-word filter / not found in index.
+
+3) Stemming parity proof
+------------------------
+Commands:
+  java -cp .:htmlparser.jar:lib/jdbm-1.0.jar PostingInspector running
+  java -cp .:htmlparser.jar:lib/jdbm-1.0.jar PostingInspector run
+
+Expected:
+- Same stem ("run"), same posting list output.
+
+4) Separate body/title indexes + phrase support
+------------------------------------------------
+Command:
+  java -cp .:htmlparser.jar:lib/jdbm-1.0.jar DBViewer 0
+
+Point out:
+- "forwardIndex" table (page -> wordID:tf map)
+- "titleIndex" table (separate inverted index for title terms)
+- "positions (from bodyIndex)" column, proving positional postings
+
+Say:
+- "Phrase search uses positional adjacency checks over stored positions."
+- "Title and body are separate indexes, so title matches can be boosted."
+
+5) Fresh hidden-seed re-index (N=30) without losing 300-page DB
+----------------------------------------------------------------
+Commands:
+  cp searchengine.db searchengine_300.db
+  cp searchengine.lg searchengine_300.lg
+  rm -f searchengine.db searchengine.lg
+  java -cp .:htmlparser.jar:lib/jdbm-1.0.jar Spider "<TA_HIDDEN_SEED>" 30
+  java -cp .:htmlparser.jar:lib/jdbm-1.0.jar Spider "<TA_HIDDEN_SEED>" 30
+
+After TA2 (restore 300-page DB for TA3):
+  mv -f searchengine_300.db searchengine.db
+  mv -f searchengine_300.lg searchengine.lg
+
+Target:
+- Finish under 1 minute.
+
+6) DB schema short tour
+-----------------------
+Say:
+- "One JDBM RecordManager with HTrees:"
+- "URL<->pageID, word<->wordID, bodyIndex, titleIndex, forwardIndex,"
+- "pageMetadata, parentLinks, childLinks, counters."
+
+Sample DBViewer output snippet (for presentation)
+=================================================
+Note:
+- Counts vary depending on which DB is currently loaded.
+- For TA3, restore the 300-page DB before retrieval demo.
+
+Command used:
+  java -cp .:htmlparser.jar:lib/jdbm-1.0.jar DBViewer 0 0
+
+Representative output (trimmed):
+
+╔══════════════════════════════════════════════════════════════╗
+  GLOBAL STATS
+  Total pages indexed : 317
+  Total unique stems  : 14498
+╚══════════════════════════════════════════════════════════════╝
+
+  ┌─ counters ──────────────────────────────────────────────────┐
+  │  pageCounter : 317
+  │  wordCounter : 14498
+  └────────────────────────────────────────────────────────────┘
+
+################################################################
+  PAGE ID : 0
+################################################################
+
+  ┌─ pageMetadata ─────────────────────────────────────────┐
+  │ title        : Test page
+  │ url          : https://hitcslj.github.io/TestPages/testpage.htm
+  │ lastModified : Wed, 25 Mar 2026 13:03:26 HKT
+  │ size         : 627 bytes
+  │ maxTF        : 2
+  └────────────────────────────────────────────────────────┘
+
+  ┌─ forwardIndex (body wordID → tf) ──────────────────────┐
+  │  wordID  stem                    tf      positions (from bodyIndex)
+  │  -----------------------------------------------------------------
+  │  0       test                    2       [0, 5]
+  │  1       page                    2       [1, 6]
+  │  2       crawler                 1       [9]
+  │  ...
+  └────────────────────────────────────────────────────────┘
+
+  ┌─ titleIndex (wordID → Posting) ────────────────────────┐
+  │  wordID  stem                    tf      positions
+  │  -------------------------------------------------------
+  │  0       test                    1       [0]
+  │  1       page                    1       [1]
+  └────────────────────────────────────────────────────────┘
+
+  ┌─ childLinks ────────────────────────────────────────────┐
+  │  [  1]  https://hitcslj.github.io/TestPages/ust_cse.htm
+  │  [  2]  https://hitcslj.github.io/TestPages/news.htm
+  │  [  3]  https://hitcslj.github.io/TestPages/books.htm
+  │  [  4]  https://hitcslj.github.io/TestPages/Movie.htm
+  └────────────────────────────────────────────────────────┘
+

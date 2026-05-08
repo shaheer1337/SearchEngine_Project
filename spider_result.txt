@@ -1,3 +1,37 @@
+Test page
+https://hitcslj.github.io/TestPages/testpage.htm
+Wed, 25 Mar 2026 13:03:26 HKT, 627
+test 2; page 2; crawler 1; get 1; admis 1; cse 1; depart 1; hkust 1; read 1; intern 1
+https://hitcslj.github.io/TestPages/ust_cse.htm
+https://hitcslj.github.io/TestPages/news.htm
+https://hitcslj.github.io/TestPages/books.htm
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+CSE department of HKUST
+https://hitcslj.github.io/TestPages/ust_cse.htm
+Wed, 25 Mar 2026 13:03:26 HKT, 412
+admis 2; cse 2; depart 2; hkust 2; main 1; pg 1; ug 1
+https://hitcslj.github.io/TestPages/ust_cse/PG.htm
+https://hitcslj.github.io/TestPages/ust_cse/UG.htm
+https://hitcslj.github.io/TestPages/testpage.htm
+-------------------------------------------------------------------
+News
+https://hitcslj.github.io/TestPages/news.htm
+Wed, 25 Mar 2026 13:03:26 HKT, 403
+new 4; main 1; bbc 1; cnn 1
+https://hitcslj.github.io/TestPages/news/bbc.htm
+https://hitcslj.github.io/TestPages/news/cnn.htm
+https://hitcslj.github.io/TestPages/testpage.htm
+-------------------------------------------------------------------
+books
+https://hitcslj.github.io/TestPages/books.htm
+Wed, 25 Mar 2026 13:03:26 HKT, 624
+book 2; read 1; main 1; articl 1; autom 1; keyword 1; classif 1; inform 1; retriev 1; gener 1
+https://hitcslj.github.io/TestPages/books/book1.htm
+https://hitcslj.github.io/TestPages/books/book2.htm
+https://hitcslj.github.io/TestPages/books/book3.htm
+https://hitcslj.github.io/TestPages/testpage.htm
+-------------------------------------------------------------------
 Movie Index Page
 https://hitcslj.github.io/TestPages/Movie.htm
 Wed, 25 Mar 2026 13:03:26 HKT, 19541
@@ -13,14 +47,52 @@ https://hitcslj.github.io/TestPages/Movie/7.html
 https://hitcslj.github.io/TestPages/Movie/8.html
 https://hitcslj.github.io/TestPages/Movie/9.html
 -------------------------------------------------------------------
-Test page
-https://hitcslj.github.io/TestPages/testpage.htm
-Wed, 25 Mar 2026 13:03:26 HKT, 627
-page 2; test 2; movi 1; crawler 1; get 1; admis 1; list 1; cse 1; depart 1; hkust 1
+PG
+https://hitcslj.github.io/TestPages/ust_cse/PG.htm
+Wed, 25 Mar 2026 13:03:26 HKT, 3341
+postgradu 9; admis 8; program 8; comput 8; applic 7; scienc 7; requir 6; student 6; english 6; admit 5
 https://hitcslj.github.io/TestPages/ust_cse.htm
+-------------------------------------------------------------------
+UG
+https://hitcslj.github.io/TestPages/ust_cse/UG.htm
+Wed, 25 Mar 2026 13:03:26 HKT, 4157
+program 16; comput 13; scienc 7; student 7; univers 6; engin 6; studi 6; depart 5; hkust 5; train 5
+https://hitcslj.github.io/TestPages/ust_cse.htm
+-------------------------------------------------------------------
+BBC news
+https://hitcslj.github.io/TestPages/news/bbc.htm
+Wed, 25 Mar 2026 13:03:26 HKT, 523
+new 3; bbc 2; commit 1; west 1; ham 1; blackburn 1; bird 1; project 1; fifth 1; nest 1
+https://hitcslj.github.io/TestPages/news/bbc1.htm
+https://hitcslj.github.io/TestPages/news/bbc2.htm
+https://hitcslj.github.io/TestPages/news/bbc3.htm
 https://hitcslj.github.io/TestPages/news.htm
+-------------------------------------------------------------------
+CNN news
+https://hitcslj.github.io/TestPages/news/cnn.htm
+Wed, 25 Mar 2026 13:03:26 HKT, 469
+new 3; cnn 2; sweet 1; sauerkraut 1; capit 1; accordion 1; warm 1; caus 1; econom 1; chao 1
+https://hitcslj.github.io/TestPages/news/cnn1.htm
+https://hitcslj.github.io/TestPages/news/cnn2.htm
+https://hitcslj.github.io/TestPages/news.htm
+-------------------------------------------------------------------
+book1
+https://hitcslj.github.io/TestPages/books/book1.htm
+Wed, 25 Mar 2026 13:03:26 HKT, 1650
+retriev 5; book 3; inform 3; descrip 3; main 2; keyword 2; relat 2; topic 2; chapter 2; ratio 2
 https://hitcslj.github.io/TestPages/books.htm
-https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+book2
+https://hitcslj.github.io/TestPages/books/book2.htm
+Wed, 25 Mar 2026 13:03:26 HKT, 2125
+data 11; base 9; inform 5; gener 4; consid 4; bibliograph 3; retriev 3; machineread 3; volum 2; book 2
+https://hitcslj.github.io/TestPages/books.htm
+-------------------------------------------------------------------
+book3
+https://hitcslj.github.io/TestPages/books/book3.htm
+Wed, 25 Mar 2026 13:03:26 HKT, 2039
+relev 6; term 6; system 5; mathemat 5; book 3; mean 3; inform 2; report 2; subject 2; doctrin 2
+https://hitcslj.github.io/TestPages/books.htm
 -------------------------------------------------------------------
 Dinosaur Planet (2003)
 https://hitcslj.github.io/TestPages/Movie/1.html
@@ -31,19 +103,19 @@ https://hitcslj.github.io/TestPages/Movie.htm
 Isle of Man TT 2004 Review (2004)
 https://hitcslj.github.io/TestPages/Movie/2.html
 Wed, 25 Mar 2026 13:03:26 HKT, 2868
-search 15; review 11; titl 10; movi 7; isl 7; tt 7; imdb 5; episod 5; match 5; tv 4
+search 15; review 11; titl 10; movi 7; isl 7; tt 7; match 5; imdb 5; episod 5; tv 4
 https://hitcslj.github.io/TestPages/Movie.htm
 -------------------------------------------------------------------
 Character (1997)
 https://hitcslj.github.io/TestPages/Movie/3.html
 Wed, 25 Mar 2026 13:03:26 HKT, 4008
-charact 42; search 15; titl 13; movi 7; aka 6; match 6; imdb 5; tv 5; episod 5; studi 5
+charact 42; search 15; titl 13; movi 7; match 6; aka 6; studi 5; imdb 5; tv 5; episod 5
 https://hitcslj.github.io/TestPages/Movie.htm
 -------------------------------------------------------------------
 Paula Abdul's Get Up and Dance (1994)
 https://hitcslj.github.io/TestPages/Movie/4.html
 Wed, 25 Mar 2026 13:03:26 HKT, 2820
-search 15; danc 11; titl 11; abdul 9; paula 8; movi 7; match 6; imdb 5; episod 5; tv 3
+search 15; danc 11; titl 11; abdul 9; paula 8; movi 7; match 6; imdb 5; episod 5; result 3
 https://hitcslj.github.io/TestPages/Movie.htm
 -------------------------------------------------------------------
 The Rise and Fall of ECW (2004)
@@ -55,43 +127,43 @@ https://hitcslj.github.io/TestPages/Movie.htm
 Sick (1997)
 https://hitcslj.github.io/TestPages/Movie/6.html
 Wed, 25 Mar 2026 13:03:26 HKT, 5243
-sick 70; titl 16; search 15; aka 14; tv 8; movi 7; love 7; usa 6; twist 6; anim 6
+sick 70; titl 16; search 15; aka 14; tv 8; movi 7; love 7; anim 6; usa 6; twist 6
 https://hitcslj.github.io/TestPages/Movie.htm
 -------------------------------------------------------------------
 8 Man (1992)
 https://hitcslj.github.io/TestPages/Movie/7.html
 Wed, 25 Mar 2026 13:03:26 HKT, 3498
-search 15; titl 12; movi 7; aka 7; match 7; imdb 5; tv 5; episod 5; usa 5; result 4
+search 15; titl 12; match 7; movi 7; aka 7; usa 5; imdb 5; tv 5; episod 5; vg 4
 https://hitcslj.github.io/TestPages/Movie.htm
 -------------------------------------------------------------------
 What the #$*! Do We Know!? (2004)
 https://hitcslj.github.io/TestPages/Movie/8.html
 Wed, 25 Mar 2026 13:03:26 HKT, 4147
-titl 16; search 15; aka 8; movi 7; imdb 5; tv 5; episod 5; match 5; usa 5; dont 4
+titl 16; search 15; aka 8; movi 7; match 5; usa 5; imdb 5; tv 5; episod 5; summer 4
 https://hitcslj.github.io/TestPages/Movie.htm
 -------------------------------------------------------------------
 Class of Nuke 'Em High 2 (1991)
 https://hitcslj.github.io/TestPages/Movie/9.html
 Wed, 25 Mar 2026 13:03:26 HKT, 7075
-imdb 11; movi 10; user 10; class 9; rate 9; nuke 9; em 9; subhumanoid 9; titl 6; plot 6
+imdb 11; movi 10; user 10; class 9; nuke 9; em 9; subhumanoid 9; rate 9; plot 6; meltdown 6
 https://hitcslj.github.io/TestPages/Movie.htm
 -------------------------------------------------------------------
 Fighter (2001)
 https://hitcslj.github.io/TestPages/Movie/10.html
 Wed, 25 Mar 2026 13:03:26 HKT, 13199
-fighter 220; aka 91; titl 59; street 56; vg 40; english 34; ii 21; usa 21; search 16; movi 12
+fighter 220; aka 91; titl 59; street 56; vg 40; english 34; usa 21; ii 21; search 16; movi 12
 https://hitcslj.github.io/TestPages/Movie.htm
 -------------------------------------------------------------------
 Full Frame: Documentary Shorts (1999)
 https://hitcslj.github.io/TestPages/Movie/11.html
 Wed, 25 Mar 2026 13:03:26 HKT, 2700
-search 15; titl 10; short 9; movi 7; frame 7; documentari 7; imdb 5; episod 5; match 5; tv 3
+search 15; titl 10; short 9; movi 7; frame 7; documentari 7; match 5; imdb 5; episod 5; seri 3
 https://hitcslj.github.io/TestPages/Movie.htm
 -------------------------------------------------------------------
 My Favorite Brunette (1947)
 https://hitcslj.github.io/TestPages/Movie/12.html
 Wed, 25 Mar 2026 13:03:26 HKT, 6432
-movi 13; imdb 11; rate 10; user 10; favorit 7; brunett 7; hope 6; plot 6; detail 5; comment 5
+movi 13; imdb 11; rate 10; user 10; favorit 7; brunett 7; plot 6; hope 6; dvdvhscdall 5; detail 5
 https://hitcslj.github.io/TestPages/Movie.htm
 -------------------------------------------------------------------
 Lord of the Rings: The Return of the King: Extended Edition: Bonus Material (2003)
@@ -109,84 +181,1644 @@ https://hitcslj.github.io/TestPages/Movie.htm
 Neil Diamond: Greatest Hits Live (1988)
 https://hitcslj.github.io/TestPages/Movie/15.html
 Wed, 25 Mar 2026 13:03:26 HKT, 5415
-imdb 11; user 10; movi 8; rate 8; diamond 8; neil 7; concert 7; detail 6; hit 6; live 6
+imdb 11; user 10; movi 8; diamond 8; rate 8; neil 7; concert 7; hit 6; live 6; detail 6
 https://hitcslj.github.io/TestPages/Movie.htm
 -------------------------------------------------------------------
 Screamers (1996)
 https://hitcslj.github.io/TestPages/Movie/16.html
 Wed, 25 Mar 2026 13:03:26 HKT, 3737
-screamer 18; titl 16; search 15; aka 12; movi 8; scream 8; match 7; imdb 5; episod 5; vg 5
+screamer 18; titl 16; search 15; aka 12; movi 8; scream 8; match 7; vg 5; usa 5; imdb 5
 https://hitcslj.github.io/TestPages/Movie.htm
 -------------------------------------------------------------------
 7 Seconds (2005)
 https://hitcslj.github.io/TestPages/Movie/17.html
 Wed, 25 Mar 2026 13:03:26 HKT, 3521
-search 15; titl 12; movi 7; result 7; aka 6; match 6; imdb 5; episod 5; tv 4; usa 4
+search 15; titl 12; movi 7; result 7; match 6; aka 6; imdb 5; episod 5; usa 4; gone 4
 https://hitcslj.github.io/TestPages/Movie.htm
 -------------------------------------------------------------------
 Immortal Beloved (1994)
 https://hitcslj.github.io/TestPages/Movie/18.html
 Wed, 25 Mar 2026 13:03:26 HKT, 7583
-movi 12; imdb 11; user 10; rate 8; immort 8; belov 8; ludwig 7; beethoven 7; van 7; music 6
+movi 12; imdb 11; user 10; immort 8; belov 8; rate 8; ludwig 7; beethoven 7; van 7; plot 6
 https://hitcslj.github.io/TestPages/Movie.htm
 -------------------------------------------------------------------
 By Dawn's Early Light (2000)
 https://hitcslj.github.io/TestPages/Movie/19.html
 Wed, 25 Mar 2026 13:03:26 HKT, 2827
-search 15; dawn 12; light 12; titl 11; movi 7; match 7; tv 6; imdb 5; episod 5; result 3
+search 15; dawn 12; light 12; titl 11; match 7; movi 7; tv 6; imdb 5; episod 5; displai 3
 https://hitcslj.github.io/TestPages/Movie.htm
 -------------------------------------------------------------------
 Seeta Aur Geeta (1972)
 https://hitcslj.github.io/TestPages/Movie/20.html
 Wed, 25 Mar 2026 13:03:26 HKT, 5856
-imdb 11; user 10; movi 9; rate 8; seeta 7; aur 7; geeta 6; film 6; titl 6; plot 6
+imdb 11; user 10; movi 9; rate 8; seeta 7; aur 7; plot 6; geeta 6; film 6; titl 6
 https://hitcslj.github.io/TestPages/Movie.htm
 -------------------------------------------------------------------
 Strange Relations (2002)
 https://hitcslj.github.io/TestPages/Movie/21.html
 Wed, 25 Mar 2026 13:03:26 HKT, 6405
-imdb 11; user 10; rate 9; movi 8; cast 6; detail 6; film 6; titl 6; tv 6; comment 5
+imdb 11; user 10; rate 9; movi 8; cast 6; detail 6; film 6; titl 6; tv 6; plot 5
 https://hitcslj.github.io/TestPages/Movie.htm
 -------------------------------------------------------------------
 Chump Change (2000)
 https://hitcslj.github.io/TestPages/Movie/22.html
 Wed, 25 Mar 2026 13:03:26 HKT, 6333
-movi 13; imdb 11; rate 10; user 10; chump 7; chang 7; plot 6; funni 6; detail 5; comment 5
+movi 13; imdb 11; rate 10; user 10; chump 7; chang 7; plot 6; funni 6; dvdvhscdall 5; detail 5
 https://hitcslj.github.io/TestPages/Movie.htm
 -------------------------------------------------------------------
 Clifford: Clifford Saves the Day! / Clifford's Fluffiest Friend Cleo (2001)
 https://hitcslj.github.io/TestPages/Movie/23.html
 Wed, 25 Mar 2026 13:03:26 HKT, 3844
-clifford 18; dai 18; save 16; search 15; titl 10; movi 7; aka 5; imdb 5; tv 5; episod 5
+clifford 18; dai 18; save 16; search 15; titl 10; movi 7; match 5; aka 5; imdb 5; tv 5
 https://hitcslj.github.io/TestPages/Movie.htm
 -------------------------------------------------------------------
 My Bloody Valentine (1981)
 https://hitcslj.github.io/TestPages/Movie/24.html
 Wed, 25 Mar 2026 13:03:26 HKT, 6894
-imdb 11; movi 10; rate 10; user 10; bloodi 8; valentin 8; film 7; titl 7; plot 7; detail 5
+imdb 11; movi 10; rate 10; user 10; bloodi 8; valentin 8; plot 7; film 7; titl 7; th 5
 https://hitcslj.github.io/TestPages/Movie.htm
 -------------------------------------------------------------------
 Inspector Morse 31: Death Is Now My Neighbour (1997)
 https://hitcslj.github.io/TestPages/Movie/25.html
 Wed, 25 Mar 2026 13:03:26 HKT, 2660
-search 15; titl 8; movi 7; inspector 7; mors 7; death 7; neighbour 7; episod 5; match 5; imdb 5
+search 15; titl 8; movi 7; inspector 7; mors 7; death 7; neighbour 7; match 5; imdb 5; episod 5
 https://hitcslj.github.io/TestPages/Movie.htm
 -------------------------------------------------------------------
 Never Die Alone (2004)
 https://hitcslj.github.io/TestPages/Movie/26.html
 Wed, 25 Mar 2026 13:03:26 HKT, 7213
-movi 15; imdb 11; user 10; rate 9; king 6; die 6; film 6; plot 6; detail 5; comment 5
+movi 15; imdb 11; user 10; rate 9; plot 6; king 6; die 6; film 6; trailer 5; detail 5
 https://hitcslj.github.io/TestPages/Movie.htm
 -------------------------------------------------------------------
 Sesame Street: Elmo's World: The Street We Live On (1962)
 https://hitcslj.github.io/TestPages/Movie/27.html
 Wed, 25 Mar 2026 13:03:26 HKT, 3821
-street 28; search 15; sesam 12; live 10; world 10; titl 10; tv 9; movi 7; elmo 7; nightmar 5
+street 28; search 15; sesam 12; live 10; world 10; titl 10; tv 9; movi 7; elmo 7; match 5
 https://hitcslj.github.io/TestPages/Movie.htm
 -------------------------------------------------------------------
 Lilo and Stitch (2002)
 https://hitcslj.github.io/TestPages/Movie/28.html
 Wed, 25 Mar 2026 13:03:26 HKT, 3863
-stitch 19; search 15; titl 14; lilo 10; movi 7; tv 7; match 7; lion 7; witch 7; wardrob 7
+stitch 19; search 15; titl 14; lilo 10; lion 7; witch 7; wardrob 7; match 7; movi 7; tv 7
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Boycott (2001)
+https://hitcslj.github.io/TestPages/Movie/29.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3302
+search 15; titl 13; boycott 10; match 7; movi 7; cocott 5; imdb 5; episod 5; aka 4; de 4
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Something's Gotta Give (2003)
+https://hitcslj.github.io/TestPages/Movie/30.html
+Wed, 25 Mar 2026 13:03:26 HKT, 9304
+movi 18; love 14; imdb 11; user 10; rate 9; someth 7; quot 7; plot 6; gotta 6; dian 6
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Classic Albums: Meat Loaf: Bat Out of Hell (1999)
+https://hitcslj.github.io/TestPages/Movie/31.html
+Wed, 25 Mar 2026 13:03:26 HKT, 4787
+imdb 11; user 10; movi 9; rate 8; classic 6; loaf 6; detail 6; titl 6; plot 5; album 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+ABC Primetime: Mel Gibson's The Passion of the Christ (2004)
+https://hitcslj.github.io/TestPages/Movie/32.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2716
+search 15; titl 8; movi 7; abc 7; primetim 7; mel 7; gibson 7; passion 7; christ 7; match 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Aqua Teen Hunger Force: Vol. 1 (2000)
+https://hitcslj.github.io/TestPages/Movie/33.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2759
+search 15; teen 10; hunger 10; forc 10; titl 10; movi 9; aqua 9; vol 7; match 5; imdb 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Ashtanga Yoga: Beginner's Practice with Nicki Doane (2003)
+https://hitcslj.github.io/TestPages/Movie/34.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2702
+search 15; titl 8; movi 7; ashtanga 7; yoga 7; beginn 7; practic 7; nicki 7; doan 7; match 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Ferngully 2: The Magical Rescue (2000)
+https://hitcslj.github.io/TestPages/Movie/35.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6086
+movi 12; ferngulli 11; imdb 11; user 10; magic 8; rate 8; plot 5; rescu 5; dvdvhscdall 5; detail 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Lady Chatterley (1992)
+https://hitcslj.github.io/TestPages/Movie/36.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3839
+ladi 30; chatterlei 30; search 15; titl 14; aka 12; match 7; movi 7; tv 7; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Zatoichi's Conspiracy (1973)
+https://hitcslj.github.io/TestPages/Movie/37.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6818
+zatoichi 12; zatichi 11; imdb 11; user 10; movi 9; film 9; titl 9; rate 8; shin 7; monogatari 6
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Daydream Obsession (2003)
+https://hitcslj.github.io/TestPages/Movie/38.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3745
+obses 26; search 15; titl 13; aka 8; match 7; movi 7; daydream 7; danger 6; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Love Reinvented (2000)
+https://hitcslj.github.io/TestPages/Movie/39.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6494
+segment 15; movi 11; imdb 11; la 10; user 10; un 8; rate 8; nuit 7; titl 7; dvd 6
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Pitcher and the Pin-Up (2004)
+https://hitcslj.github.io/TestPages/Movie/40.html
+Wed, 25 Mar 2026 13:03:26 HKT, 5819
+imdb 11; user 10; movi 9; rate 9; love 8; home 8; plot 6; road 6; titl 6; stori 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Horror Vision (2000)
+https://hitcslj.github.io/TestPages/Movie/41.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3793
+horror 22; search 15; titl 13; vision 11; aka 10; tv 8; movi 7; match 5; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Searching for Paradise (2002)
+https://hitcslj.github.io/TestPages/Movie/42.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6426
+imdb 11; user 10; rate 9; movi 8; gilda 8; search 7; film 7; plot 6; parad 5; york 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Silent Service (2000)
+https://hitcslj.github.io/TestPages/Movie/43.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3683
+servic 25; search 15; silent 14; titl 14; tv 8; match 7; movi 7; aka 6; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Spitfire Grill (1996)
+https://hitcslj.github.io/TestPages/Movie/44.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7514
+movi 15; imdb 11; user 10; spitfir 9; grill 8; rate 8; perci 7; plot 6; recommend 5; dvdvhscdall 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Love Letter (1999)
+https://hitcslj.github.io/TestPages/Movie/45.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3511
+love 26; letter 24; search 15; titl 13; match 7; movi 7; aka 7; imdb 5; episod 5; tv 4
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Rudolph the Red-Nosed Reindeer (1964)
+https://hitcslj.github.io/TestPages/Movie/46.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2849
+search 15; rednos 11; reindeer 11; titl 10; rudolph 9; movi 8; match 6; imdb 5; episod 5; tv 4
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Bad and the Beautiful (1952)
+https://hitcslj.github.io/TestPages/Movie/47.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3892
+beauti 29; search 15; titl 14; bad 11; aka 10; match 7; movi 7; tv 6; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Justice League (2001)
+https://hitcslj.github.io/TestPages/Movie/48.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3580
+justic 27; search 15; leagu 14; titl 14; match 7; movi 7; tv 7; aka 5; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Devo: The Complete Truth About De-evolution (2003)
+https://hitcslj.github.io/TestPages/Movie/49.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2866
+search 15; truth 9; titl 9; complet 8; deevolu 8; movi 7; devo 7; match 5; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+A Yank in the R.A.F. (1941)
+https://hitcslj.github.io/TestPages/Movie/50.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7217
+imdb 11; user 10; movi 9; rate 8; film 8; fly 6; yank 6; look 6; power 6; titl 6
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Jonah: A VeggieTales Movie: Bonus Material (2002)
+https://hitcslj.github.io/TestPages/Movie/51.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2781
+movi 16; search 15; titl 10; veggietal 9; jonah 8; bonu 7; materi 7; match 5; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Weather Underground (2002)
+https://hitcslj.github.io/TestPages/Movie/52.html
+Wed, 25 Mar 2026 13:03:26 HKT, 10792
+archiv 17; weather 12; underground 11; imdb 11; user 10; movi 9; rate 8; film 8; plot 7; comment 6
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Bonesetter (2003)
+https://hitcslj.github.io/TestPages/Movie/53.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3566
+titl 17; search 15; aka 9; bonesett 9; match 7; movi 7; usa 5; imdb 5; episod 5; tv 4
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+We're Not Married (1952)
+https://hitcslj.github.io/TestPages/Movie/54.html
+Wed, 25 Mar 2026 13:03:26 HKT, 5636
+imdb 11; movi 10; rate 10; user 10; plot 6; marri 6; dvdvhscdall 5; detail 5; comment 5; board 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Jade (1995)
+https://hitcslj.github.io/TestPages/Movie/55.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7977
+movi 15; imdb 11; user 10; plot 9; rate 9; jade 6; chase 6; car 5; dvdvhscdall 5; detail 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Carandiru (2004)
+https://hitcslj.github.io/TestPages/Movie/56.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2769
+search 15; titl 12; carandiru 8; match 7; movi 7; imdb 5; episod 5; displai 3; aka 3; result 3
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Richard III (1995)
+https://hitcslj.github.io/TestPages/Movie/57.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7318
+richard 11; imdb 11; movi 10; rate 10; user 10; iii 7; plot 6; comment 6; dvdvhscdall 5; detail 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Dragonheart (1996)
+https://hitcslj.github.io/TestPages/Movie/58.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7828
+movi 12; rate 11; imdb 11; user 10; plot 8; dragonheart 8; dragon 8; detail 5; comment 5; board 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Sex and the Beauties (2003)
+https://hitcslj.github.io/TestPages/Movie/59.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6428
+movi 17; imdb 11; user 10; rate 8; titl 7; hong 6; jing 6; wong 6; sing 6; recommend 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Libertine (1969)
+https://hitcslj.github.io/TestPages/Movie/60.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3873
+libertin 23; titl 16; search 15; aka 11; match 7; movi 7; result 5; imdb 5; tv 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Ricky Martin: One Night Only (1999)
+https://hitcslj.github.io/TestPages/Movie/61.html
+Wed, 25 Mar 2026 13:03:26 HKT, 4172
+imdb 11; user 9; movi 8; rate 8; ricki 6; martin 6; detail 6; tv 6; plot 5; night 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Ken Burns' America: Empire of the Air (1991)
+https://hitcslj.github.io/TestPages/Movie/62.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3769
+search 15; america 13; empir 11; titl 11; tv 9; burn 8; air 8; movi 7; ken 7; match 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Crash Dive (1943)
+https://hitcslj.github.io/TestPages/Movie/63.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6958
+movi 11; imdb 11; user 10; rate 8; crash 7; power 7; plot 6; dive 6; submarin 6; love 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Outside the Law (2001)
+https://hitcslj.github.io/TestPages/Movie/64.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3775
+outsid 28; law 19; titl 17; search 15; aka 12; match 7; movi 7; usa 6; episod 6; imdb 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Lost in the Pershing Point Hotel (2000)
+https://hitcslj.github.io/TestPages/Movie/65.html
+Wed, 25 Mar 2026 13:03:26 HKT, 5762
+imdb 11; user 10; film 9; movi 8; rate 8; lesli 6; lost 6; persh 6; plot 5; hotel 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Barbarian Queen 2 (1989)
+https://hitcslj.github.io/TestPages/Movie/66.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3663
+barbarian 20; search 15; titl 13; aka 12; queen 11; movi 7; match 6; imdb 5; episod 5; usa 4
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Vampire Journals (1997)
+https://hitcslj.github.io/TestPages/Movie/67.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6074
+vampir 17; movi 13; imdb 11; user 10; film 10; rate 9; journal 8; plot 7; dvdvhscdall 5; detail 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Invader Zim (2004)
+https://hitcslj.github.io/TestPages/Movie/68.html
+Wed, 25 Mar 2026 13:03:26 HKT, 9570
+episod 18; zim 15; rate 12; imdb 11; user 10; movi 9; cast 8; invad 7; vasquez 7; plot 6
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+WWE: Armageddon 2003 (2003)
+https://hitcslj.github.io/TestPages/Movie/69.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2996
+armageddon 19; search 15; wwe 11; titl 10; movi 7; match 5; imdb 5; episod 5; wwf 4; tv 4
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Tai Chi: The 24 Forms (1999)
+https://hitcslj.github.io/TestPages/Movie/70.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3736
+search 15; tv 11; form 10; titl 10; chi 9; forest 8; tai 8; movi 7; children 6; match 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Maya Lin: A Strong Clear Vision (1995)
+https://hitcslj.github.io/TestPages/Movie/71.html
+Wed, 25 Mar 2026 13:03:26 HKT, 5590
+imdb 11; maya 10; user 10; movi 9; lin 8; rate 8; plot 6; detail 6; film 6; documentari 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+At Home Among Strangers (1974)
+https://hitcslj.github.io/TestPages/Movie/72.html
+Wed, 25 Mar 2026 13:03:26 HKT, 4027
+stranger 36; search 16; home 15; titl 14; aka 9; tv 9; own 8; movi 7; match 5; imdb 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Davy Crockett: 50th Anniversary Double Feature (1954)
+https://hitcslj.github.io/TestPages/Movie/73.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2667
+search 15; titl 8; movi 7; davi 7; crockett 7; th 7; anniversari 7; doubl 7; featur 7; match 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+6ixtynin9 (1999)
+https://hitcslj.github.io/TestPages/Movie/74.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7152
+movi 13; imdb 11; user 10; rate 9; titl 8; plot 6; monei 5; dvdvhscdall 5; detail 5; comment 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Grind (1997)
+https://hitcslj.github.io/TestPages/Movie/75.html
+Wed, 25 Mar 2026 13:03:26 HKT, 5651
+imdb 11; user 10; movi 9; rate 8; grind 6; plot 5; dvdvhscdall 5; detail 5; comment 5; board 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+I Love Lucy: Season 2 (1952)
+https://hitcslj.github.io/TestPages/Movie/76.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3530
+love 27; luci 16; search 15; titl 15; match 7; movi 7; tv 6; luck 5; result 5; imdb 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Congo (1995)
+https://hitcslj.github.io/TestPages/Movie/77.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7052
+movi 14; rate 12; imdb 11; user 10; plot 7; elliot 6; congo 6; detail 5; comment 5; board 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Jingle All the Way (1996)
+https://hitcslj.github.io/TestPages/Movie/78.html
+Wed, 25 Mar 2026 13:03:26 HKT, 8021
+movi 12; imdb 11; user 10; rate 9; offic 7; jingl 7; christma 7; plot 6; bomb 5; dvdvhscdall 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Killing (1956)
+https://hitcslj.github.io/TestPages/Movie/79.html
+Wed, 25 Mar 2026 13:03:26 HKT, 8474
+kill 126; aka 41; titl 30; tv 18; search 15; usa 14; movi 7; english 7; game 7; match 6
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Winter Kills (1979)
+https://hitcslj.github.io/TestPages/Movie/80.html
+Wed, 25 Mar 2026 13:03:26 HKT, 8822
+kill 11; winter 11; imdb 11; film 11; movi 10; rate 10; user 10; plot 8; nick 7; detail 6
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Antarctica: IMAX (1991)
+https://hitcslj.github.io/TestPages/Movie/81.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3738
+antarctica 22; search 15; titl 14; aka 9; tv 8; movi 7; imax 7; antarct 6; match 5; imdb 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Frogmen (1951)
+https://hitcslj.github.io/TestPages/Movie/82.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6731
+imdb 11; user 10; film 9; movi 8; rate 8; plot 7; frogmen 7; top 5; dvdvhscdall 5; detail 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Silkwood (1983)
+https://hitcslj.github.io/TestPages/Movie/83.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7241
+movi 11; silkwood 11; imdb 11; user 10; rate 8; karen 7; film 7; plot 6; dolli 5; dvdvhscdall 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Powerpuff Girls Movie (2002)
+https://hitcslj.github.io/TestPages/Movie/84.html
+Wed, 25 Mar 2026 13:03:26 HKT, 8532
+movi 19; powerpuff 12; rate 11; imdb 11; girl 10; user 10; titl 7; plot 6; fan 6; usa 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Elfen Lied (2005)
+https://hitcslj.github.io/TestPages/Movie/85.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3668
+li 20; search 15; tv 13; titl 12; movi 7; ein 7; elfen 7; aka 6; match 5; imdb 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Iron Monkey 2 (1996)
+https://hitcslj.github.io/TestPages/Movie/86.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3631
+monkei 27; search 15; iron 14; titl 14; aka 11; movi 7; match 6; usa 5; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Louder Than Bombs (2002)
+https://hitcslj.github.io/TestPages/Movie/87.html
+Wed, 25 Mar 2026 13:03:26 HKT, 5523
+imdb 11; user 10; movi 8; rate 8; poland 7; plot 6; bomb 6; comedi 6; titl 6; recommend 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Record of Lodoss War: Chronicles of the Heroic Knight (1998)
+https://hitcslj.github.io/TestPages/Movie/88.html
+Wed, 25 Mar 2026 13:03:26 HKT, 9657
+voic 53; english 39; lodoss 16; episod 15; seri 12; addition 12; imdb 11; rate 10; version 10; user 10
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Chain of Command (2000)
+https://hitcslj.github.io/TestPages/Movie/89.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7134
+imdb 11; user 10; movi 9; rate 9; plot 7; chain 7; agent 7; film 7; command 6; presid 6
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Lemon Drop Kid (1951)
+https://hitcslj.github.io/TestPages/Movie/90.html
+Wed, 25 Mar 2026 13:03:26 HKT, 4072
+kid 23; search 15; lemon 15; titl 10; drop 9; aka 8; movi 7; tv 7; match 6; usa 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+WWE: Royal Rumble 2005 (2005)
+https://hitcslj.github.io/TestPages/Movie/91.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3169
+rumbl 26; royal 25; search 15; wwe 10; wwf 9; aka 9; titl 9; usa 8; movi 7; tv 7
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+ECW: Cyberslam '99 (2002)
+https://hitcslj.github.io/TestPages/Movie/92.html
+Wed, 25 Mar 2026 13:03:26 HKT, 4530
+imdb 11; user 9; movi 8; rate 8; ecw 7; plot 5; cyberslam 5; dvdvhscdall 5; detail 5; board 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+They Came Back (2004)
+https://hitcslj.github.io/TestPages/Movie/93.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3504
+search 15; titl 13; match 7; movi 7; aka 6; cat 5; imdb 5; tv 5; episod 5; sometim 4
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+G3: Live in Concert (2000)
+https://hitcslj.github.io/TestPages/Movie/94.html
+Wed, 25 Mar 2026 13:03:26 HKT, 5093
+imdb 11; user 10; movi 8; live 8; concert 8; rate 8; plot 6; dvdvhscdall 5; detail 5; comment 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Dona Herlinda and Her Son (1985)
+https://hitcslj.github.io/TestPages/Movie/95.html
+Wed, 25 Mar 2026 13:03:26 HKT, 5579
+imdb 11; movi 10; user 10; rate 8; herlinda 7; plot 6; doa 6; dvdvhscdall 5; detail 5; comment 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Inside the Space Station (2000)
+https://hitcslj.github.io/TestPages/Movie/96.html
+Wed, 25 Mar 2026 13:03:26 HKT, 4846
+imdb 11; user 10; movi 8; space 8; station 8; rate 8; insid 6; detail 6; tv 6; dvdvhscdall 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Mostly Martha (2002)
+https://hitcslj.github.io/TestPages/Movie/97.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2840
+search 15; titl 12; martha 11; movi 7; match 6; imdb 5; episod 5; aka 3; result 3; tv 3
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Battle of Algiers: Bonus Material (1965)
+https://hitcslj.github.io/TestPages/Movie/98.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2832
+search 15; battl 10; algier 10; titl 9; movi 7; bonu 7; materi 7; match 5; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+A Fishy Story (1989)
+https://hitcslj.github.io/TestPages/Movie/99.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3271
+stori 28; search 15; fishi 12; titl 11; fish 8; movi 7; tv 7; match 6; fisher 5; imdb 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Sam the Iron Bridge (1993)
+https://hitcslj.github.io/TestPages/Movie/100.html
+Wed, 25 Mar 2026 13:03:26 HKT, 4110
+bridg 29; search 15; titl 15; sam 9; iron 9; aka 8; match 7; movi 7; imdb 5; tv 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Complete Shamanic Princess (1997)
+https://hitcslj.github.io/TestPages/Movie/101.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3166
+search 15; titl 13; complet 11; shaman 8; princess 8; movi 7; tv 7; match 5; aka 5; imdb 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Notre Musique (2004)
+https://hitcslj.github.io/TestPages/Movie/102.html
+Wed, 25 Mar 2026 13:03:26 HKT, 10796
+godard 19; movi 12; notr 12; musiqu 12; imdb 11; user 10; film 9; rate 8; hell 7; titl 7
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Sanford and Son: Season 6 (1976)
+https://hitcslj.github.io/TestPages/Movie/103.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3771
+search 15; sanford 14; titl 14; son 11; movi 7; match 6; aka 6; imdb 5; episod 5; usa 4
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Great Race (1965)
+https://hitcslj.github.io/TestPages/Movie/104.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3678
+race 28; search 15; titl 12; tv 9; match 7; movi 7; aka 6; imdb 5; episod 5; displai 3
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Obsessed (2002)
+https://hitcslj.github.io/TestPages/Movie/105.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3535
+obsess 28; titl 17; search 15; aka 9; tv 9; movi 7; match 6; result 5; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Stevie Ray Vaughan and Double Trouble: Live at Montreux 1982 and 1985 (2004)
+https://hitcslj.github.io/TestPages/Movie/106.html
+Wed, 25 Mar 2026 13:03:26 HKT, 5754
+imdb 11; user 10; concert 9; stevi 9; rai 9; movi 8; doubl 8; montreux 8; rate 8; live 7
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Magnolia: Bonus Material (2000)
+https://hitcslj.github.io/TestPages/Movie/107.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2513
+search 15; titl 8; movi 7; magnolia 7; bonu 7; materi 7; match 5; imdb 5; episod 5; result 3
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Spartan (2004)
+https://hitcslj.github.io/TestPages/Movie/108.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7939
+imdb 11; user 10; movi 9; rate 9; film 7; plot 6; spartan 6; kilmer 6; dvdvhscdall 5; detail 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+No Way Back (1996)
+https://hitcslj.github.io/TestPages/Movie/109.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3379
+search 15; titl 12; match 7; movi 7; imdb 5; tv 5; episod 5; aka 4; home 4; displai 3
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Scandal (1989)
+https://hitcslj.github.io/TestPages/Movie/110.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7950
+imdb 11; user 10; movi 9; rate 9; film 8; plot 6; scandal 6; titl 6; dvdvhscdall 5; detail 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Duplex (Widescreen) (2003)
+https://hitcslj.github.io/TestPages/Movie/111.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2478
+search 15; titl 8; movi 7; duplex 7; widescreen 7; match 5; imdb 5; episod 5; result 3; tv 3
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Eye of Vichy (1993)
+https://hitcslj.github.io/TestPages/Movie/112.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7500
+archiv 58; imdb 11; movi 10; de 10; user 10; rate 8; plot 6; vichi 6; dvdvhscdall 5; detail 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Bruce Lee: A Warrior's Journey (2000)
+https://hitcslj.github.io/TestPages/Movie/113.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6989
+archiv 25; lee 13; bruce 11; imdb 11; movi 10; user 10; rate 8; warrior 7; journei 7; titl 7
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Dominion Tank Police Part 1 and 2 (1989)
+https://hitcslj.github.io/TestPages/Movie/114.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2792
+search 15; dominion 12; tank 10; polic 10; titl 9; movi 7; match 5; imdb 5; episod 5; tv 4
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Lord Peter Wimsey: Murder Must Advertise (1973)
+https://hitcslj.github.io/TestPages/Movie/115.html
+Wed, 25 Mar 2026 13:03:26 HKT, 8368
+imdb 11; user 10; plot 9; movi 9; wimsei 9; peter 8; murder 8; advert 8; rate 8; plai 6
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Bear Cub (2004)
+https://hitcslj.github.io/TestPages/Movie/116.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3868
+titl 21; bear 16; search 15; aka 11; cub 9; match 7; movi 7; english 6; episod 6; imdb 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Silk Stockings (1957)
+https://hitcslj.github.io/TestPages/Movie/117.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6617
+imdb 11; user 10; movi 9; rate 8; music 7; plot 6; silk 6; ninotchka 6; stock 5; detail 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Rambo: First Blood Part II (1985)
+https://hitcslj.github.io/TestPages/Movie/118.html
+Wed, 25 Mar 2026 13:03:26 HKT, 8604
+rambo 17; movi 11; imdb 11; film 11; blood 10; user 10; rate 9; ii 7; plot 6; pow 6
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Travel the World by Train: Africa (1999)
+https://hitcslj.github.io/TestPages/Movie/119.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3953
+imdb 11; movi 9; user 9; travel 8; rate 8; train 7; world 7; africa 5; dvdvhscdall 5; detail 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Plain Dirty (2004)
+https://hitcslj.github.io/TestPages/Movie/120.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7025
+movi 11; imdb 11; user 10; love 9; rate 9; edgar 7; flower 7; titl 6; plot 5; romanc 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Beyonce: Live at Wembley (2003)
+https://hitcslj.github.io/TestPages/Movie/121.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3880
+imdb 11; user 9; movi 8; rate 8; beyonc 6; wemblei 5; live 5; dvdvhscdall 5; detail 5; board 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Cube 2: Hypercube (2002)
+https://hitcslj.github.io/TestPages/Movie/122.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7862
+cube 15; hypercub 14; movi 13; imdb 11; user 10; rate 9; film 8; plot 6; titl 6; top 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Chain of Fools (2000)
+https://hitcslj.github.io/TestPages/Movie/123.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7193
+imdb 11; rate 10; user 10; chain 9; fool 9; movi 8; plot 7; film 6; titl 6; cast 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Cold Blooded (2000)
+https://hitcslj.github.io/TestPages/Movie/124.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3766
+cold 27; blood 26; titl 17; aka 16; search 15; match 7; movi 7; imdb 5; tv 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Nighthawks (1981)
+https://hitcslj.github.io/TestPages/Movie/125.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7979
+imdb 11; user 10; movi 9; rate 8; nighthawk 7; plot 6; cop 6; film 6; york 5; dvdvhscdall 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Vampire Effect (aka Twins Effect) (2003)
+https://hitcslj.github.io/TestPages/Movie/126.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3084
+effect 15; search 15; aka 12; vampir 12; titl 11; movi 7; twin 7; match 5; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Fatal Beauty (1987)
+https://hitcslj.github.io/TestPages/Movie/127.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6802
+imdb 11; user 10; movi 9; rate 9; film 7; plot 6; beauti 6; rita 6; fatal 6; whoopi 6
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Mr. Vampire (1985)
+https://hitcslj.github.io/TestPages/Movie/128.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3977
+vampir 35; aka 22; search 15; titl 14; match 7; movi 7; jiang 5; sheng 5; shi 5; imdb 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Darkwolf (2003)
+https://hitcslj.github.io/TestPages/Movie/129.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3300
+search 15; der 14; wolf 13; titl 9; movi 7; darkwolf 7; tv 7; aka 6; und 6; match 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Drowning on Dry Land (1999)
+https://hitcslj.github.io/TestPages/Movie/130.html
+Wed, 25 Mar 2026 13:03:26 HKT, 5484
+imdb 11; user 10; movi 9; rate 9; plot 6; drown 6; dry 5; land 5; dvdvhscdall 5; detail 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Arachnid (2002)
+https://hitcslj.github.io/TestPages/Movie/131.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7156
+movi 15; imdb 11; user 10; rate 9; plot 7; arachnid 7; titl 6; dvdvhscdall 5; detail 5; board 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Lucio Fulci: The Beyond (1981)
+https://hitcslj.github.io/TestPages/Movie/132.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3905
+beyond 26; search 15; titl 12; aka 10; lucio 8; fulci 8; movi 7; tv 7; match 5; imdb 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Viva La Bam: Season 1 (2003)
+https://hitcslj.github.io/TestPages/Movie/133.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7109
+episod 19; bam 16; rate 12; imdb 11; user 10; movi 9; viva 8; la 8; titl 8; usa 6
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Spirit Lost (1996)
+https://hitcslj.github.io/TestPages/Movie/134.html
+Wed, 25 Mar 2026 13:03:26 HKT, 5370
+imdb 11; user 10; rate 9; movi 8; plot 6; lost 6; spirit 6; detail 6; ghost 5; dvdvhscdall 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+GTO: Great Teacher Onizuka: Set 2 (1998)
+https://hitcslj.github.io/TestPages/Movie/135.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2706
+search 15; gto 9; teacher 9; onizuka 9; titl 9; movi 7; set 7; match 5; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Cat and the Canary (1927)
+https://hitcslj.github.io/TestPages/Movie/136.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3394
+canari 26; cat 15; search 15; titl 12; movi 7; match 6; aka 5; imdb 5; episod 5; result 3
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Naked Lies (1998)
+https://hitcslj.github.io/TestPages/Movie/137.html
+Wed, 25 Mar 2026 13:03:26 HKT, 5926
+imdb 11; user 10; plot 9; movi 9; rate 9; li 7; nake 7; film 7; detail 6; dvdvhscdall 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Star Trek: Voyager: Season 1 (1995)
+https://hitcslj.github.io/TestPages/Movie/138.html
+Wed, 25 Mar 2026 13:03:26 HKT, 4116
+star 24; trek 23; voyag 21; titl 18; search 16; aka 10; movi 7; usa 7; match 6; vg 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Allergies: A Natural Approach (2001)
+https://hitcslj.github.io/TestPages/Movie/139.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2548
+search 15; titl 8; movi 7; natur 7; allergi 7; approach 7; match 5; imdb 5; episod 5; result 3
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Lost in the Wild (1993)
+https://hitcslj.github.io/TestPages/Movie/140.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3997
+wild 23; lost 16; search 15; aka 13; west 12; titl 12; movi 8; usa 8; tv 7; match 6
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Goddess of Mercy (2004)
+https://hitcslj.github.io/TestPages/Movie/141.html
+Wed, 25 Mar 2026 13:03:26 HKT, 4112
+goddess 29; titl 23; aka 16; search 15; merci 12; english 9; match 7; movi 7; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Tricky Master (2000)
+https://hitcslj.github.io/TestPages/Movie/142.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6415
+movi 16; wong 13; imdb 11; user 10; rate 8; titl 7; chin 6; plot 5; hong 5; dvdvhscdall 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Game (1997)
+https://hitcslj.github.io/TestPages/Movie/143.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3283
+game 25; search 17; titl 13; match 10; movi 7; aka 6; result 5; imdb 5; episod 5; tv 4
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Deepak Chopra: The Way of the Wizard and Alchemy (2000)
+https://hitcslj.github.io/TestPages/Movie/144.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2693
+search 15; titl 8; movi 7; deepak 7; chopra 7; wizard 7; alchemi 7; match 5; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Get Out Your Handkerchiefs (1978)
+https://hitcslj.github.io/TestPages/Movie/145.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6485
+movi 12; imdb 11; user 10; rate 9; plot 6; le 6; dvdvhscdall 5; prparez 5; detail 5; comment 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Cannibal Women in the Avocado Jungle of Death (1988)
+https://hitcslj.github.io/TestPages/Movie/146.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6918
+avocado 12; movi 11; imdb 11; women 10; user 10; jungl 9; rate 8; plot 6; death 6; sam 6
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Where Sleeping Dogs Lie (1992)
+https://hitcslj.github.io/TestPages/Movie/147.html
+Wed, 25 Mar 2026 13:03:26 HKT, 5656
+imdb 11; user 10; movi 9; rate 8; plot 7; film 7; lie 6; dvdvhscdall 5; sleep 5; dog 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Sweet November (2001)
+https://hitcslj.github.io/TestPages/Movie/148.html
+Wed, 25 Mar 2026 13:03:26 HKT, 8272
+rate 13; imdb 11; user 10; movi 9; reev 8; film 8; plot 6; sweet 6; novemb 6; theron 6
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Edward R. Murrow Collection (2005)
+https://hitcslj.github.io/TestPages/Movie/149.html
+Wed, 25 Mar 2026 13:03:26 HKT, 4092
+collec 24; search 15; titl 14; murrow 8; movi 7; edward 7; match 5; aka 5; caesar 5; sid 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Firetrap (2001)
+https://hitcslj.github.io/TestPages/Movie/150.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6335
+movi 13; imdb 11; user 10; rate 9; plot 6; excel 6; firetrap 6; titl 6; dvdvhscdall 5; detail 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Sleepover Nightmare (2005)
+https://hitcslj.github.io/TestPages/Movie/151.html
+Wed, 25 Mar 2026 13:03:26 HKT, 5969
+movi 11; imdb 11; user 10; rate 9; sleepov 7; nightmar 7; plot 6; dvdvhscdall 5; detail 5; comment 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+A Little Princess (1995)
+https://hitcslj.github.io/TestPages/Movie/152.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3982
+littl 26; princess 22; titl 19; search 15; aka 9; match 7; movi 7; princ 7; result 5; imdb 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+MTV Yoga (2002)
+https://hitcslj.github.io/TestPages/Movie/153.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3576
+yoga 21; mtv 15; search 15; titl 13; movi 7; tv 7; aka 6; match 5; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Demon Warrior Koji (2000)
+https://hitcslj.github.io/TestPages/Movie/154.html
+Wed, 25 Mar 2026 13:03:26 HKT, 4114
+warrior 28; search 15; titl 15; movi 9; aka 9; demon 8; koji 7; match 5; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Strongest Man in the World (1975)
+https://hitcslj.github.io/TestPages/Movie/155.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3882
+world 29; strongest 16; search 15; titl 12; movi 9; aka 7; tv 7; match 6; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Husbands and Wives (1992)
+https://hitcslj.github.io/TestPages/Movie/156.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7467
+movi 11; imdb 11; user 10; woodi 9; rate 9; film 9; plot 6; husband 6; board 6; cast 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Laird: White Knuckle Extreme (2004)
+https://hitcslj.github.io/TestPages/Movie/157.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2675
+search 15; knuckl 9; extrem 9; titl 9; white 8; movi 7; laird 7; match 5; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+A Killer Within (2004)
+https://hitcslj.github.io/TestPages/Movie/158.html
+Wed, 25 Mar 2026 13:03:26 HKT, 8029
+movi 14; imdb 11; user 10; rate 9; plot 8; comment 7; killer 6; home 5; dvdvhscdall 5; detail 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Gentlemen of Fortune (1971)
+https://hitcslj.github.io/TestPages/Movie/159.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7526
+movi 11; imdb 11; user 10; plot 9; russian 9; rate 8; titl 8; comedi 6; cast 5; dvdvhscdall 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Gormenghast (2000)
+https://hitcslj.github.io/TestPages/Movie/160.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6564
+imdb 11; movi 10; user 10; gormenghast 9; rate 8; plot 6; cast 6; dvdvhscdall 5; detail 5; comment 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Ninotchka (1939)
+https://hitcslj.github.io/TestPages/Movie/161.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7099
+movi 12; imdb 11; rate 10; ninotchka 10; user 10; film 8; plot 6; dvdvhscdall 5; detail 5; comment 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+John Cleese on How to Irritate People (1968)
+https://hitcslj.github.io/TestPages/Movie/162.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6997
+irrit 12; imdb 11; peopl 10; user 10; movi 9; python 9; tv 9; monti 8; rate 8; sketch 7
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+MTV: Making the Band 2: Best of Season 1 (2002)
+https://hitcslj.github.io/TestPages/Movie/163.html
+Wed, 25 Mar 2026 13:03:26 HKT, 4086
+search 15; season 15; titl 12; tv 9; movi 8; mtv 7; band 7; match 5; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+One Last Dance (2003)
+https://hitcslj.github.io/TestPages/Movie/164.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6148
+movi 14; danc 13; imdb 11; user 10; rate 8; plot 6; dancer 6; detail 6; comment 6; board 6
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Richard Pryor: Live on the Sunset Strip (1982)
+https://hitcslj.github.io/TestPages/Movie/165.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6062
+pryor 14; richard 12; imdb 11; user 10; movi 9; live 8; rate 8; plot 6; comment 6; sunset 6
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Fame (1980)
+https://hitcslj.github.io/TestPages/Movie/166.html
+Wed, 25 Mar 2026 13:03:26 HKT, 8511
+fame 13; movi 12; imdb 11; user 10; rate 9; school 7; plot 6; peopl 6; student 6; titl 6
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Chorus (2004)
+https://hitcslj.github.io/TestPages/Movie/167.html
+Wed, 25 Mar 2026 13:03:26 HKT, 4135
+choru 46; girl 17; search 15; titl 14; movi 7; aka 7; match 6; result 5; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Smokey and the Bandit Part 3 (1983)
+https://hitcslj.github.io/TestPages/Movie/168.html
+Wed, 25 Mar 2026 13:03:26 HKT, 9575
+bandit 18; movi 15; rate 11; smokei 11; imdb 11; eno 10; user 10; buford 8; justic 7; titl 7
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Cartoon Network Halloween: 9 Creepy Cartoon Capers (2004)
+https://hitcslj.github.io/TestPages/Movie/169.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2695
+search 15; cartoon 14; titl 8; network 7; halloween 7; creepi 7; caper 7; movi 7; match 5; imdb 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Tomorrow (1972)
+https://hitcslj.github.io/TestPages/Movie/170.html
+Wed, 25 Mar 2026 13:03:26 HKT, 5980
+imdb 11; movi 10; user 10; rate 8; film 7; plot 6; tomorrow 6; titl 6; recommend 5; dvdvhscdall 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Funny Face (1957)
+https://hitcslj.github.io/TestPages/Movie/171.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7988
+imdb 11; movi 10; user 10; rate 8; funni 8; plot 7; film 7; detail 5; comment 5; hepburn 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Jack (2003)
+https://hitcslj.github.io/TestPages/Movie/172.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3066
+jack 21; search 17; titl 11; match 10; movi 7; result 5; imdb 5; episod 5; tv 4; displai 3
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Devil's Brigade (1968)
+https://hitcslj.github.io/TestPages/Movie/173.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6984
+movi 12; pvt 11; imdb 11; devil 10; brigad 10; user 10; rate 9; plot 6; film 6; dvdvhscdall 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Adam-12: Season 1 (1968)
+https://hitcslj.github.io/TestPages/Movie/174.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3601
+search 15; titl 13; adam 12; madam 9; match 7; movi 7; aka 6; imdb 5; episod 5; tv 4
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Reservoir Dogs (1992)
+https://hitcslj.github.io/TestPages/Movie/175.html
+Wed, 25 Mar 2026 13:03:26 HKT, 11108
+film 18; rate 12; imdb 11; user 10; movi 9; plot 7; reservoir 7; dog 6; comment 6; cast 6
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The History Channel Presents: Troy: Unearthing the Legend (2004)
+https://hitcslj.github.io/TestPages/Movie/176.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2830
+search 15; titl 9; histori 8; channel 8; movi 7; troi 7; unearth 7; legend 7; match 5; imdb 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Pressure (2002)
+https://hitcslj.github.io/TestPages/Movie/177.html
+Wed, 25 Mar 2026 13:03:26 HKT, 5923
+movi 12; imdb 11; rate 10; user 10; pressur 9; plot 6; cast 5; dvdvhscdall 5; detail 5; comment 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Regular Guys (1996)
+https://hitcslj.github.io/TestPages/Movie/178.html
+Wed, 25 Mar 2026 13:03:26 HKT, 5971
+imdb 11; user 10; movi 9; rate 9; plot 6; film 6; dvdvhscdall 5; echt 5; kerl 5; detail 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Bollywood Bound (2003)
+https://hitcslj.github.io/TestPages/Movie/179.html
+Wed, 25 Mar 2026 13:03:26 HKT, 4620
+imdb 11; user 10; movi 9; rate 8; bollywood 6; board 6; dvdvhscdall 5; detail 5; comment 5; bound 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Scratch (2002)
+https://hitcslj.github.io/TestPages/Movie/180.html
+Wed, 25 Mar 2026 13:03:26 HKT, 4099
+scratch 47; titl 20; search 15; aka 12; match 7; movi 7; usa 5; english 5; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Last Shot (2004)
+https://hitcslj.github.io/TestPages/Movie/181.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3414
+shot 21; search 15; titl 13; match 7; movi 7; aka 6; result 5; imdb 5; episod 5; displai 4
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Moby: Play (2001)
+https://hitcslj.github.io/TestPages/Movie/182.html
+Wed, 25 Mar 2026 13:03:26 HKT, 4803
+imdb 11; user 10; plai 9; movi 8; rate 8; mobi 7; dvd 6; plot 5; dvdvhscdall 5; detail 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+IFilm: Deranged (2005)
+https://hitcslj.github.io/TestPages/Movie/183.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3862
+film 21; search 15; tv 12; titl 11; derang 9; orang 8; academi 8; award 8; british 8; movi 7
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Billy Blanks: Tae Bo: Cardio Circuit 1 (2004)
+https://hitcslj.github.io/TestPages/Movie/184.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2611
+search 15; titl 8; movi 7; billi 7; blank 7; tae 7; bo 7; cardio 7; circuit 7; match 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Missing in Action 2: The Beginning / Missing in Action 3: Braddock (1985)
+https://hitcslj.github.io/TestPages/Movie/185.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6805
+movi 11; miss 11; action 11; imdb 11; user 10; rate 9; plot 6; colonel 6; dvdvhscdall 5; detail 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Panic in the Streets (1950)
+https://hitcslj.github.io/TestPages/Movie/186.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6793
+imdb 11; user 10; movi 9; rate 8; chase 8; plot 6; panic 6; titl 6; street 5; dvdvhscdall 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Death to Smoochy (2002)
+https://hitcslj.github.io/TestPages/Movie/187.html
+Wed, 25 Mar 2026 13:03:26 HKT, 8366
+rate 11; imdb 11; film 11; movi 10; user 10; plot 8; smoochi 7; death 6; detail 5; comment 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Dead Birds (2005)
+https://hitcslj.github.io/TestPages/Movie/188.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3975
+dead 22; bird 19; titl 18; aka 15; search 15; match 7; movi 7; kid 6; usa 5; imdb 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Airplane II: The Sequel (1982)
+https://hitcslj.github.io/TestPages/Movie/189.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7714
+movi 17; airplan 12; imdb 11; rate 10; sequel 10; user 10; ii 7; plot 6; dvdvhscdall 5; detail 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Blood and Sand (1989)
+https://hitcslj.github.io/TestPages/Movie/190.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3682
+blood 27; sand 17; titl 17; search 15; aka 13; movi 7; match 6; result 5; imdb 5; tv 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+X2: X-Men United (2003)
+https://hitcslj.github.io/TestPages/Movie/191.html
+Wed, 25 Mar 2026 13:03:26 HKT, 8773
+rate 11; imdb 11; movi 10; user 10; titl 10; xmen 8; plot 6; usa 6; mutant 6; charact 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The SoulTaker (2003)
+https://hitcslj.github.io/TestPages/Movie/192.html
+Wed, 25 Mar 2026 13:03:26 HKT, 5077
+imdb 11; rate 10; user 10; episod 9; movi 8; soultak 7; anim 5; plot 5; cast 5; seri 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Marilyn Manson: Fear of a Satanic Planet (2005)
+https://hitcslj.github.io/TestPages/Movie/193.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2625
+search 15; titl 8; movi 7; planet 7; marilyn 7; manson 7; fear 7; satan 7; match 5; imdb 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Arliss: The Best of Arliss (1996)
+https://hitcslj.github.io/TestPages/Movie/194.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3792
+search 15; arliss 14; titl 11; tv 9; movi 8; match 5; aka 5; imdb 5; episod 5; live 4
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Chasing Freedom (2004)
+https://hitcslj.github.io/TestPages/Movie/195.html
+Wed, 25 Mar 2026 13:03:26 HKT, 8378
+taliban 14; movi 11; imdb 11; freedom 10; user 10; rate 9; chase 7; tv 7; detail 6; plai 6
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Peter Tosh: Stepping Razor: Red X (1992)
+https://hitcslj.github.io/TestPages/Movie/196.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2638
+search 15; titl 9; razor 8; red 8; movi 7; peter 7; tosh 7; step 7; match 5; imdb 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Taking Lives (2004)
+https://hitcslj.github.io/TestPages/Movie/197.html
+Wed, 25 Mar 2026 13:03:26 HKT, 8754
+movi 12; imdb 11; rate 10; user 10; take 9; live 8; plot 6; film 6; dvdvhscdall 5; detail 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Gupt (1997)
+https://hitcslj.github.io/TestPages/Movie/198.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6856
+movi 17; imdb 11; user 10; rate 8; plot 6; detail 6; gupt 6; truth 5; hidden 5; excel 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Deer Hunter (1978)
+https://hitcslj.github.io/TestPages/Movie/199.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3896
+hunter 27; titl 16; search 15; deer 12; aka 9; movi 7; match 6; result 5; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Fall of the Roman Empire (1964)
+https://hitcslj.github.io/TestPages/Movie/200.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7062
+movi 13; imdb 11; empir 10; user 10; roman 9; rate 8; fall 7; plot 6; cast 5; dvdvhscdall 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Home Movie (2001)
+https://hitcslj.github.io/TestPages/Movie/201.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6102
+movi 17; imdb 11; home 10; user 10; hous 8; rate 8; peopl 8; plot 6; titl 6; live 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Ruby's Bucket of Blood (2001)
+https://hitcslj.github.io/TestPages/Movie/202.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6495
+imdb 11; movi 10; user 10; rate 9; rubi 8; plot 7; titl 6; tv 6; louisiana 5; blood 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Sports Illustrated Swimsuit Edition: 1997 (1997)
+https://hitcslj.github.io/TestPages/Movie/203.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3412
+sport 18; illustr 18; swimsuit 18; search 16; titl 10; tv 9; edition 8; movi 7; match 5; imdb 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Venus Boyz (2002)
+https://hitcslj.github.io/TestPages/Movie/204.html
+Wed, 25 Mar 2026 13:03:26 HKT, 5782
+imdb 11; user 10; movi 9; rate 9; plot 6; venu 6; boyz 6; dvdvhscdall 5; detail 5; comment 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Troy: Bonus Material (2004)
+https://hitcslj.github.io/TestPages/Movie/205.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2668
+search 15; titl 9; materi 8; movi 7; bonu 7; troi 7; match 5; imdb 5; episod 5; result 3
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Unconstitutional: The War on Our Civil Liberties (2004)
+https://hitcslj.github.io/TestPages/Movie/206.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7114
+archiv 16; imdb 11; user 10; movi 9; rate 8; hamoui 6; titl 6; plot 5; dvdvhscdall 5; detail 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Denise Austin: Ultimate Fat Burner (2001)
+https://hitcslj.github.io/TestPages/Movie/207.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2583
+search 15; titl 8; movi 7; denis 7; austin 7; ultim 7; fat 7; burner 7; match 5; imdb 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Three Stooges: Sing a Song of Six Pants (1947)
+https://hitcslj.github.io/TestPages/Movie/208.html
+Wed, 25 Mar 2026 13:03:26 HKT, 4101
+song 21; search 15; titl 12; sing 11; tv 10; six 9; pant 8; movi 7; stoog 7; match 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Star Trek: Deep Space Nine: Season 5 (1996)
+https://hitcslj.github.io/TestPages/Movie/209.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3068
+search 15; deep 15; nine 15; space 15; trek 14; star 12; titl 11; movi 7; episod 6; match 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Onmyoji (2001)
+https://hitcslj.github.io/TestPages/Movie/210.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6765
+english 13; voic 12; imdb 11; movi 10; user 10; rate 9; version 8; onmyoji 7; fujiwara 6; film 6
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Agronomist (2004)
+https://hitcslj.github.io/TestPages/Movie/211.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6972
+imdb 11; movi 10; user 10; rate 9; agronomist 7; plot 6; jean 6; dominiqu 6; haitian 6; dvdvhscdall 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Querelle (1982)
+https://hitcslj.github.io/TestPages/Movie/212.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6508
+movi 11; imdb 11; user 10; querel 9; rate 8; plot 6; dvdvhscdall 5; detail 5; comment 5; board 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Dinner Rush (2001)
+https://hitcslj.github.io/TestPages/Movie/213.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7801
+movi 12; imdb 11; user 10; rate 9; plot 7; dinner 7; rush 7; restaur 6; york 5; chef 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Read-Along: Beauty and the Beast (2002)
+https://hitcslj.github.io/TestPages/Movie/214.html
+Wed, 25 Mar 2026 13:03:26 HKT, 4007
+beast 32; beauti 31; search 15; titl 13; aka 10; tv 9; movi 8; usa 7; readalong 7; match 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+That '70s Show: Season 1 (1998)
+https://hitcslj.github.io/TestPages/Movie/215.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3705
+search 15; titl 14; tv 10; movi 7; match 6; aka 5; result 5; imdb 5; episod 5; displai 3
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Impostor (2000)
+https://hitcslj.github.io/TestPages/Movie/216.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3522
+impostor 38; search 15; titl 12; el 9; tv 8; movi 7; match 6; aka 5; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Cherry 2000 (1988)
+https://hitcslj.github.io/TestPages/Movie/217.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6819
+movi 15; imdb 11; user 10; cherri 9; rate 8; film 7; plot 6; dvdvhscdall 5; detail 5; comment 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Triumph: Live at the US Festival (1983)
+https://hitcslj.github.io/TestPages/Movie/218.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3746
+festiv 22; live 18; search 15; titl 12; movi 7; triumph 7; tv 7; match 5; aka 5; imdb 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Neon Bible (1995)
+https://hitcslj.github.io/TestPages/Movie/219.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6911
+movi 14; imdb 11; user 10; rate 8; plot 7; neon 6; bibl 6; film 6; dvdvhscdall 5; detail 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Winston Churchill: The Wilderness Years (1983)
+https://hitcslj.github.io/TestPages/Movie/220.html
+Wed, 25 Mar 2026 13:03:26 HKT, 10591
+churchil 22; winston 15; baldwin 13; imdb 11; user 10; movi 9; parti 9; tori 9; rate 8; lord 7
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Voyage to the Planets and Beyond (2005)
+https://hitcslj.github.io/TestPages/Movie/221.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3071
+search 15; voyag 12; planet 11; beyond 10; titl 10; movi 7; match 6; imdb 5; episod 5; tv 4
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Yellow (1998)
+https://hitcslj.github.io/TestPages/Movie/222.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7377
+lee 12; imdb 11; user 10; film 10; rate 9; movi 8; yellow 8; plot 6; charact 6; american 6
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Chappelle's Show: Season 1 (2003)
+https://hitcslj.github.io/TestPages/Movie/223.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7877
+chappel 18; rate 13; episod 13; user 11; imdb 11; movi 9; dave 8; season 7; comedi 7; plot 6
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Midsomer Murders: Blood Will Out (1999)
+https://hitcslj.github.io/TestPages/Movie/224.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2569
+search 15; titl 8; movi 7; murder 7; blood 7; midsom 7; match 5; imdb 5; episod 5; result 3
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Cookout (2004)
+https://hitcslj.github.io/TestPages/Movie/225.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3605
+search 15; titl 15; workout 9; cookout 9; movi 7; aka 7; lookout 7; match 6; result 5; imdb 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Henry: Portrait of a Serial Killer 2 (1996)
+https://hitcslj.github.io/TestPages/Movie/226.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3516
+killer 17; titl 16; search 15; portrait 15; serial 14; aka 8; henri 8; movi 7; match 6; usa 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Carol Burnett Show: Show Stoppers (2001)
+https://hitcslj.github.io/TestPages/Movie/227.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3114
+burnett 16; search 15; carol 15; titl 9; tv 9; stopper 8; movi 7; match 5; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Butch and Sundance: The Early Days (1979)
+https://hitcslj.github.io/TestPages/Movie/228.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6256
+movi 15; imdb 11; user 10; butch 9; sundanc 9; rate 8; plot 6; dai 5; dvdvhscdall 5; detail 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Peter Gabriel: Growing Up Live (2003)
+https://hitcslj.github.io/TestPages/Movie/229.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2880
+search 15; titl 12; live 11; gabriel 10; grow 9; peter 8; match 7; movi 7; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Unsolved Mysteries: Psychics (1987)
+https://hitcslj.github.io/TestPages/Movie/230.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3104
+search 15; mysteri 14; unsolv 12; titl 11; movi 7; psychic 7; match 5; aka 5; imdb 5; tv 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Marooned in Iraq (2002)
+https://hitcslj.github.io/TestPages/Movie/231.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6311
+imdb 11; movi 10; user 10; titl 9; rate 8; plot 6; ghobadi 6; gomgashtei 5; kurd 5; dvdvhscdall 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Gross Anatomy (1989)
+https://hitcslj.github.io/TestPages/Movie/232.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6767
+movi 20; imdb 11; user 10; rate 8; gross 7; plot 6; recommend 6; anatomi 6; dvdvhscdall 5; detail 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Chato's Land (1971)
+https://hitcslj.github.io/TestPages/Movie/233.html
+Wed, 25 Mar 2026 13:03:26 HKT, 11167
+movi 25; land 12; chato 12; imdb 11; user 10; rate 8; plot 6; film 6; quot 6; dvdvhscdall 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Animation Legend: Winsor McCay (1921)
+https://hitcslj.github.io/TestPages/Movie/234.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3888
+imdb 11; user 9; winsor 8; movi 8; rate 8; mccai 7; anim 6; dvdvhscdall 5; detail 5; legend 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Unhook the Stars (1996)
+https://hitcslj.github.io/TestPages/Movie/235.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7025
+movi 12; imdb 11; user 10; rate 9; unhook 7; star 7; plot 6; dvdvhscdall 5; detail 5; comment 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Cartoon Crazys Sci-Fi (1998)
+https://hitcslj.github.io/TestPages/Movie/236.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2492
+search 15; titl 8; crazi 7; cartoon 7; scifi 7; movi 7; match 5; imdb 5; episod 5; result 3
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Broken Blossoms (1918)
+https://hitcslj.github.io/TestPages/Movie/237.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3769
+blossom 29; titl 18; search 15; broken 12; aka 12; movi 7; match 6; english 6; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Led Zeppelin: The Song Remains the Same (1976)
+https://hitcslj.github.io/TestPages/Movie/238.html
+Wed, 25 Mar 2026 13:03:26 HKT, 9335
+led 16; zeppelin 14; song 12; imdb 11; movi 10; user 10; rate 9; band 9; film 9; remain 8
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Winnie the Pooh: Springtime with Roo (2004)
+https://hitcslj.github.io/TestPages/Movie/239.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6829
+winni 14; pooh 14; imdb 11; user 10; movi 9; roo 9; rate 8; plot 6; springtim 6; film 6
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Woman of the Year (1942)
+https://hitcslj.github.io/TestPages/Movie/240.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7342
+movi 16; imdb 11; user 10; rate 8; plot 6; woman 6; dvdvhscdall 5; detail 5; comment 5; board 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+North by Northwest (1959)
+https://hitcslj.github.io/TestPages/Movie/241.html
+Wed, 25 Mar 2026 13:03:26 HKT, 9712
+film 13; movi 12; imdb 11; rate 10; north 10; northwest 10; user 10; titl 10; thornhil 8; hitchcock 7
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Neon Genesis Evangelion: The End of Evangelion (1995)
+https://hitcslj.github.io/TestPages/Movie/242.html
+Wed, 25 Mar 2026 13:03:26 HKT, 8900
+voic 15; evangelion 14; japanes 13; seri 11; imdb 11; rate 10; user 10; movi 9; shinji 8; plot 7
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Pressure Point (1962)
+https://hitcslj.github.io/TestPages/Movie/243.html
+Wed, 25 Mar 2026 13:03:26 HKT, 5973
+imdb 11; user 10; movi 9; rate 8; plot 6; pressur 6; poitier 5; dvdvhscdall 5; detail 5; comment 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Stellvia (2004)
+https://hitcslj.github.io/TestPages/Movie/244.html
+Wed, 25 Mar 2026 13:03:26 HKT, 5667
+stellvia 11; imdb 11; rate 10; user 10; movi 8; seri 8; episod 8; plot 5; cast 5; dvdvhscdall 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Road Dogz (2002)
+https://hitcslj.github.io/TestPages/Movie/245.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6649
+film 14; movi 11; imdb 11; user 10; rate 9; road 6; dogz 6; detail 6; comment 6; plot 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Boston Strangler (1968)
+https://hitcslj.github.io/TestPages/Movie/246.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3904
+strangler 30; search 15; titl 15; aka 13; boston 11; match 7; movi 7; usa 5; imdb 5; tv 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Oleanna (1994)
+https://hitcslj.github.io/TestPages/Movie/247.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7915
+imdb 11; movi 10; user 10; rate 8; carol 7; film 7; plot 6; oleanna 6; correct 5; dvdvhscdall 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Michael Moore's The Awful Truth: Season 2 (2001)
+https://hitcslj.github.io/TestPages/Movie/248.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2696
+search 15; moor 9; titl 9; michael 8; movi 7; aw 7; truth 7; match 5; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Hunters (1958)
+https://hitcslj.github.io/TestPages/Movie/249.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6093
+hunter 81; aka 24; titl 22; search 15; tv 10; english 9; movi 8; match 6; usa 5; lion 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Cast a Giant Shadow (1966)
+https://hitcslj.github.io/TestPages/Movie/250.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7615
+cast 15; imdb 11; movi 10; giant 10; shadow 10; user 10; film 10; rate 8; plot 7; dvdvhscdall 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Midsomer Murders: Strangler's Wood (2000)
+https://hitcslj.github.io/TestPages/Movie/251.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2583
+search 15; titl 8; movi 7; strangler 7; murder 7; wood 7; midsom 7; match 5; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Stuart Little 2 (2002)
+https://hitcslj.github.io/TestPages/Movie/252.html
+Wed, 25 Mar 2026 13:03:26 HKT, 8171
+littl 21; stuart 17; movi 14; imdb 11; user 10; rate 9; plot 6; titl 6; trailer 5; detail 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+A Night at the Opera (1935)
+https://hitcslj.github.io/TestPages/Movie/253.html
+Wed, 25 Mar 2026 13:03:26 HKT, 4111
+night 24; titl 17; search 15; opera 14; tv 8; match 7; movi 7; aka 6; result 5; imdb 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Westender (2003)
+https://hitcslj.github.io/TestPages/Movie/254.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6053
+movi 13; imdb 11; user 10; rate 9; westend 7; comment 6; plot 5; dvdvhscdall 5; detail 5; board 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Hunchback of Notre Dame II (2001)
+https://hitcslj.github.io/TestPages/Movie/255.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6973
+movi 13; imdb 11; user 10; hunchback 8; ii 8; rate 8; plot 7; dame 7; notr 7; film 7
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Ghost Dog: The Way of the Samurai (2000)
+https://hitcslj.github.io/TestPages/Movie/256.html
+Wed, 25 Mar 2026 13:03:26 HKT, 10489
+film 22; ghost 16; dog 15; samurai 15; movi 12; imdb 11; user 10; rate 9; plot 7; code 7
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Charlotte's Web (1973)
+https://hitcslj.github.io/TestPages/Movie/257.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7637
+charlott 13; movi 12; imdb 11; user 10; web 9; rate 8; film 7; anim 6; plot 6; love 6
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Mann (1999)
+https://hitcslj.github.io/TestPages/Movie/258.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6687
+imdb 11; user 10; movi 9; mann 9; priya 8; dev 8; rate 8; plot 6; dvdvhscdall 5; detail 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Animal (2004)
+https://hitcslj.github.io/TestPages/Movie/259.html
+Wed, 25 Mar 2026 13:03:26 HKT, 4576
+imdb 11; movi 9; user 9; rate 8; titl 7; anim 6; plot 5; philippin 5; dvdvhscdall 5; detail 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Marat / Sade (1967)
+https://hitcslj.github.io/TestPages/Movie/260.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6756
+movi 15; imdb 11; user 10; rate 9; maratsad 7; plot 6; marat 6; titl 6; quot 6; sade 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Big Clock (1948)
+https://hitcslj.github.io/TestPages/Movie/261.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6735
+imdb 11; user 10; movi 9; rate 8; plot 7; clock 7; dvdvhscdall 5; detail 5; comment 5; board 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Herbie Rides Again (1974)
+https://hitcslj.github.io/TestPages/Movie/262.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7169
+imdb 11; herbi 10; user 10; movi 9; rate 8; plot 7; dvdvhscdall 5; detail 5; comment 5; ride 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Dragon Ball: Tournament Saga (2001)
+https://hitcslj.github.io/TestPages/Movie/263.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2685
+search 15; titl 9; dragon 8; ball 8; saga 8; movi 7; tournam 7; match 5; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Angelina Ballerina: Lights (2002)
+https://hitcslj.github.io/TestPages/Movie/264.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2629
+search 15; titl 8; movi 7; angelina 7; ballerina 7; light 7; action 6; camera 6; match 5; imdb 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Jeff Corwin Experience: Costa Rica and the Amazon (2002)
+https://hitcslj.github.io/TestPages/Movie/265.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2907
+search 15; experi 9; titl 9; jeff 8; corwin 8; movi 7; costa 7; rica 7; amazon 7; match 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Saudade Do Futuro (2000)
+https://hitcslj.github.io/TestPages/Movie/266.html
+Wed, 25 Mar 2026 13:03:26 HKT, 4386
+imdb 11; user 9; movi 8; rate 8; saudad 6; futuro 6; detail 6; titl 6; plot 5; dvdvhscdall 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Touched by an Angel: Season 1 (1994)
+https://hitcslj.github.io/TestPages/Movie/267.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3937
+angel 22; titl 18; touch 16; search 15; aka 11; movi 7; match 6; result 5; english 5; rape 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Final Countdown (1980)
+https://hitcslj.github.io/TestPages/Movie/268.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3837
+countdown 27; search 15; tv 15; titl 13; final 11; match 7; movi 7; aka 7; live 6; usa 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Parenthood (1989)
+https://hitcslj.github.io/TestPages/Movie/269.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7631
+movi 12; imdb 11; user 10; rate 8; parenthood 7; plot 6; link 5; detail 5; comment 5; comedi 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Sex and the City: Season 4 (2001)
+https://hitcslj.github.io/TestPages/Movie/270.html
+Wed, 25 Mar 2026 13:03:26 HKT, 4186
+citi 26; search 15; titl 15; sex 12; tv 9; mous 8; match 7; movi 7; aka 6; result 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Saludos Amigos (1943)
+https://hitcslj.github.io/TestPages/Movie/271.html
+Wed, 25 Mar 2026 13:03:26 HKT, 7115
+disnei 12; imdb 11; movi 10; user 10; rate 9; saludo 7; titl 7; plot 6; amigo 6; anim 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Female Yakuza Tale (1973)
+https://hitcslj.github.io/TestPages/Movie/272.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6321
+imdb 11; user 10; movi 9; rate 8; plot 7; anego 6; den 6; detail 6; titl 6; yasagur 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Taxi (2004)
+https://hitcslj.github.io/TestPages/Movie/273.html
+Wed, 25 Mar 2026 13:03:26 HKT, 10708
+taxi 244; aka 61; titl 40; driver 21; tv 20; un 17; de 16; search 15; english 15; usa 13
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Crazy as Hell (2002)
+https://hitcslj.github.io/TestPages/Movie/274.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6550
+imdb 11; user 10; movi 9; rate 9; crazi 7; film 7; plot 6; hell 5; dvdvhscdall 5; dr 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Evelyn (2002)
+https://hitcslj.github.io/TestPages/Movie/275.html
+Wed, 25 Mar 2026 13:03:26 HKT, 8940
+movi 14; evelyn 14; imdb 11; user 10; stori 9; rate 9; doyl 8; plot 6; film 6; father 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Cold Harvest (1998)
+https://hitcslj.github.io/TestPages/Movie/276.html
+Wed, 25 Mar 2026 13:03:26 HKT, 5918
+movi 11; imdb 11; user 10; rate 9; hokei 9; plot 6; harvest 6; cold 6; dvdvhscdall 5; detail 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Enigma: MCMXC A.D (2003)
+https://hitcslj.github.io/TestPages/Movie/277.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2464
+search 15; titl 8; movi 7; enigma 7; mcmxc 7; ad 7; match 5; imdb 5; episod 5; result 3
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+100 Days Before the Command (1990)
+https://hitcslj.github.io/TestPages/Movie/278.html
+Wed, 25 Mar 2026 13:03:26 HKT, 5871
+imdb 11; film 11; user 10; movi 8; rate 8; command 7; plot 5; dvdvhscdall 5; detail 5; comment 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Micki and Maude (1984)
+https://hitcslj.github.io/TestPages/Movie/279.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3691
+search 15; titl 12; maud 10; movi 8; micki 8; tv 6; match 5; aka 5; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Sarah Brightman: In Concert (1998)
+https://hitcslj.github.io/TestPages/Movie/280.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3296
+brightman 15; search 15; concert 13; titl 13; sarah 12; match 7; movi 7; tv 6; imdb 5; episod 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Legend (1993)
+https://hitcslj.github.io/TestPages/Movie/281.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3029
+search 17; legend 12; titl 11; match 10; movi 7; aka 6; imdb 5; tv 5; episod 5; result 3
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Blue Seed: Beyond (2003)
+https://hitcslj.github.io/TestPages/Movie/282.html
+Wed, 25 Mar 2026 13:03:26 HKT, 5811
+blue 11; seed 11; imdb 11; movi 10; user 10; rate 8; aokushimitama 5; dvdvhscdall 5; detail 5; board 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+If These Walls Could Talk (1996)
+https://hitcslj.github.io/TestPages/Movie/283.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2986
+search 15; wall 13; talk 11; titl 11; match 7; movi 7; imdb 5; tv 5; episod 5; displai 3
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Sasquatch Hunters (2005)
+https://hitcslj.github.io/TestPages/Movie/284.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2760
+search 15; sasquatch 11; titl 10; hunter 9; movi 7; match 6; imdb 5; episod 5; tv 4; result 3
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+The Devil's Own (1997)
+https://hitcslj.github.io/TestPages/Movie/285.html
+Wed, 25 Mar 2026 13:03:26 HKT, 3713
+devil 28; search 15; titl 14; aka 12; own 10; movi 7; match 6; usa 6; result 5; imdb 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Thunderbirds Are Go (1966)
+https://hitcslj.github.io/TestPages/Movie/286.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6971
+movi 13; imdb 11; user 10; thunderbird 9; rate 8; plot 7; recommend 5; dvdvhscdall 5; detail 5; comment 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Luther Vandross: Always and Forever: An Evening of Songs (1994)
+https://hitcslj.github.io/TestPages/Movie/287.html
+Wed, 25 Mar 2026 13:03:26 HKT, 2928
+search 15; titl 10; vandross 9; forev 9; luther 8; even 8; song 8; movi 7; match 5; imdb 5
+https://hitcslj.github.io/TestPages/Movie.htm
+-------------------------------------------------------------------
+Saturday Night Live: The Best of Chris Kattan (2004)
+https://hitcslj.github.io/TestPages/Movie/288.html
+Wed, 25 Mar 2026 13:03:26 HKT, 6918
+kattan 11; imdb 11; movi 10; user 10; chri 9; rate 8; live 7; saturdai 7; charact 6; night 6
 https://hitcslj.github.io/TestPages/Movie.htm
 -------------------------------------------------------------------
